@@ -1,0 +1,713 @@
+@import "fuentes";
+@import "main";
+
+
+
+
+
+
+
+
+/* HEADER */
+header {
+    background-color: #0a2947;
+}
+.navegador {
+    width: 98vw;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: flex-end;    
+}
+.logoMG {
+    padding-left: 2rem;
+}
+
+.menuNavegador {
+    width: 50vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-self: flex-end;
+
+}
+.opcionesNav {
+    list-style: none;
+    a {
+        font-size: 2.3rem;
+        text-decoration: none;
+        color:#edeeef
+    }
+}
+
+
+
+
+
+
+/* ANIMACION MENU */
+.inicio {
+    transition: transform 1.3s;
+    
+}
+
+.inicio:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+}
+
+.nosotros {
+    transition: transform 1.3s;
+}
+
+.nosotros:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+}
+
+.venta {
+    transition: transform 1.3s;
+}
+
+.venta:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+}
+
+.alquileres {
+    transition: transform 1.3s;
+}
+
+.alquileres:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+}
+
+.contacto {
+    transition: transform 1.3s;
+}
+
+.contacto:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+}
+
+
+
+
+/* MAPA */
+/* MAPA */
+
+.mapa {
+    background-color: #0f2f56;
+    display: grid flex;
+    grid-template-rows: 1fr 4fr 2fr;
+    grid-template-areas: "tituloMapa plano ejercicios";
+}
+
+.tituloMapa {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    grid-area: tituloMapa;
+    font-size: 2.5rem;
+    text-align: LEFT;
+    color: #edeeef;
+    padding: 1rem;
+    margin-left: 1rem;
+
+}
+
+
+.plano {
+    grid-area: plano;
+    height: 50rem;
+    width: 99%;
+    float: center;
+
+}
+.iframeMapa {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-self: center;
+    align-content: center;
+    margin: 1rem;
+    width: 97vw;
+}
+
+
+/* FOOTER */
+/* FOOTER */
+
+.logoInstagram {
+    padding-right: 0.5rem;
+    font-size: 2rem;
+
+}
+
+.logoWhatsapp {
+    padding-right: 0.5rem;
+    font-size: 2rem;
+
+}
+
+.logoEmail {
+    padding-right: 0.5rem;
+    font-size: 2rem;
+
+}
+
+.footer a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #edeeef;
+    text-align: right;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    display: flex;
+}
+.footer a img {
+    align-self: center;
+}
+
+.footer {
+    height: 18vh;
+    width: auto;
+    display: grid;
+    background-color: #0a2947;
+    font-size: 1.6rem;
+    margin: 0.5rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "instagram irArriba divisorFooter"
+        " whatsapp whatsapp whatsapp"
+        "email email desarrolladoPor";
+
+}
+
+.instagram {
+    height: 6vh;
+    grid-area: instagram;
+    align-self: end;
+    justify-self: left;
+    display: inline-flex;
+
+    
+
+}
+
+.whatsapp {
+    height: 6vh;
+    grid-area: whatsapp;
+    align-self: center;
+    justify-self: left;
+}
+
+.email {
+    height: 6vh;
+    grid-area: email;
+    align-self: center;
+    justify-self: left;
+}
+
+.irArriba {
+    height: 6vh;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-area: irArriba;
+}
+
+
+
+.desarrolladoPor {
+    height: 6vh;
+    grid-area: desarrolladoPor;
+    justify-content: end;
+    justify-items: end;
+    align-content: end;
+    align-self: baseline;
+    justify-self: right;
+}
+
+
+footer p {
+    font-size: 1rem;
+}
+
+/* ANIMACION FOOTER */
+
+.instagram a {
+    transition: 1s;
+    
+}
+
+.instagram a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+        color:violet;
+    
+}
+
+.whatsapp a{
+    transition: 1s;
+}
+
+.whatsapp a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color:green;
+}
+
+.email a {
+    transition: 1s;
+}
+
+.email a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color:red;
+
+}
+.irArriba a svg {
+    transition: 1s;
+    
+}
+
+.irArriba a svg:hover {
+    transform: scale(2 , 2);
+        
+    
+}
+
+/* CONTACTANOS */
+/* CONTACTANOS */
+/* NUESTROS DATOS */
+.seccionContacto {
+    height: fit-content;
+    border-radius: 8px 8px 8px 8px;
+    width: 97vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem;
+    background-color: #0a2947 ;
+
+}
+
+.nuestrosDatos {
+    border-radius: 8px 8px 8px 8px;
+    margin: 1rem;
+    width: 40vw;
+    background-color: #0f2f56;
+    color: #edeeef;
+    font-size: 1.5rem;
+    grid-area: nuestrosDatos;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+
+}
+
+.horariosContacto {
+    padding: 1rem 2rem 1rem 2rem;  
+    height: 12vh;
+    width: 40vw;
+    
+}
+
+.telefonoContacto {
+    padding: 1rem 2rem 1rem 2rem;  
+    height: 12vh;
+    width: 40vw;
+}
+
+.emailContacto {
+    padding: 1rem 2rem 1rem 2rem;  
+    height: 12vh;
+    width: 40vw;
+}
+
+.emailContacto a {
+    color: #edeeef;
+    text-decoration: none;
+}
+
+/* FORMULARIO */
+.formulario {
+    border-radius: 8px 8px 8px 8px;
+    padding: 1rem;
+    width: 40vw;
+    height: 60%;
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0f2f56;
+    color: #edeeef;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: flex-start;
+    align-content: flex-start;
+
+}
+
+.nombreConsulta {
+    grid-area: nombre;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+
+}
+
+.telefonoConsulta {
+    grid-area: telefono;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+}
+
+.emailConsulta {
+    grid-area: email;
+    padding: 0.5rem 2rem;    
+    border-radius: 4px;
+    font-size: 1.5rem;
+
+}
+
+.consulta {
+    grid-area: consulta;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+
+}
+
+.enviar {
+    font-family: 'Montserrat', sans-serif;
+    grid-area: enviar;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+}
+
+.nombreConsulta label {
+    font-size: 1.7rem;
+}
+
+.telefonoConsulta label {
+    font-size: 1.7rem;
+}
+
+.emailConsulta {
+    font-size: 1.7rem;
+}
+
+.consulta label {
+    font-size: 1.7rem;
+}
+
+/* Animaciones Formulario */ 
+
+
+.nombreConsulta :hover {
+    transform: scale(1.1, 1.1);
+}
+.telefonoConsulta :hover {
+    transform: scale(1.1, 1.1);
+}
+.emailConsulta :hover {
+    transform: scale(1.1, 1.1) ;
+}
+.consulta :hover {
+    transform: scale(1.1, 1.1) translateY(5px);
+}
+.enviar :hover {
+    transform: scale(1.1, 1.1);
+}
+
+
+
+/* NOSOTROS */
+/* NOSOTROS */
+/* SERVICIOS */
+.nosotrosServicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0f2f56;
+}
+
+
+.serviciosBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #edeeef;
+    height: 40%;
+
+
+}
+
+.fotoBox {
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #edeeef;
+    justify-content: space-evenly;
+    height: 55%;
+    /* width: 50%; */
+
+}
+
+.fotoServicios {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+
+
+}
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    background-color: #edeeef;
+    border-radius: 0px 4px 4px 0px;
+    height: 55%;
+    h3 {
+        font-size: 3rem;
+        text-align: center;
+        font-style: bold;
+    
+    }
+
+}
+
+
+.listaServicios {
+    font-size: 2rem;
+    li {
+        padding: 2rem 2rem 2rem 0rem;
+    }
+}
+
+
+
+/* NOSOTROS */
+.nosotrosBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-self: flex-start;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #edeeef;
+    height: 40%;
+
+}
+
+.fotosNos {
+    height: 40vh;
+    width: 31vw;
+    padding: 0.5rem;
+    border-radius: 8px;
+    animation-name: fotosNos;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+.textoNos {
+    font-size: 2rem;
+    padding: 00.5rem;
+}
+
+
+
+/* BREADCRUMBS */
+.breadcrumb {
+    padding: 1rem 1.5rem;
+    list-style: none;
+    background-color: #edeeef;
+}
+
+.breadcrumb li {
+    display: inline;
+    font-size: 1.5rem;
+}
+
+.breadcrumb li+li:before {
+    padding: 0.5rem;
+    color: #0a2947;
+    content: "/\00a0";
+}
+
+.breadcrumb li a {
+    color: #0a2947;
+    text-decoration: none;
+    transition: transform 1s;
+}
+
+/* ANIMACION */
+
+
+.breadcrumb li:hover {
+    transform: scale(1.05, 1.05);
+}
+
+/* ALQUILERES */ 
+.seccionAlquileres {
+    padding: 3rem;
+    background-color: #0f2f56;
+}
+
+/* VENTAS */
+
+
+.seccionVentas {
+    padding: 3rem;
+    background-color: #0f2f56;
+
+}
+.titulo-producciones {
+    font-size: 2rem;
+}
+
+.texto-producciones {
+    font-size: 1.5rem;
+}
+
+
+
+
+/* VISTA PROPIEDADES */ 
+.propiedades {
+    background-color: #0a2947;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin: 1rem auto 0rem auto;
+    height: 75vh;
+    width: 95vw;
+    
+
+}
+.cajaAcordeon {
+    height: 50vh;
+    background-color: white;
+}
+
+.acordeon {
+    display: grid;
+    padding: 3rem 1.25rem;
+    font-size: 1.2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 40vh;
+}
+.barrio {
+    flex-direction: 3 ;
+}
+
+
+/* FORMULARIO PROPIEDADES */ 
+.formularioPropiedades {
+    padding: 0rem 2rem 1rem 2rem;
+    display: flex; 
+    flex-direction: column;
+    max-height: 100%;
+    height: 70vh;
+    width: 90;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #0f2f56;
+    border-radius: 8px;
+    
+}
+
+.nombreConsultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+}
+.telefonoConsultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+}
+.consultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+}
+.enviarPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+/* ERROR 404 */ 
+
+.sectionError {
+    background-color: #0f2f56;
+}
+
+.error404 {
+    padding: 2rem;
+    background-color: #0f2f56;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    h2 {
+        font-size: 2rem;
+        color: #edeeef;
+    }
+    p {
+        font-size: 1.6rem;
+        color: #edeeef;
+    }
+}
+
+.tituloMapaError {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    grid-area: tituloMapa;
+    font-size: 2.5rem;
+    text-align: LEFT;
+    color: #0a2947;
+    padding: 1rem;
+    margin-left: 1rem;
+
+}
+
+/* KEYFRAMES FOTOS NOSOTROS */
+@keyframes fotosNos {
+    0% {
+        transform: translate(0%, 0);
+    }
+
+    50% {
+        transform: translate(0%, 10px);
+    }
+
+    100% {
+        transform: translate(0%, 0);
+
+    }
+}
+
+
+
+
+
+@import "mediaQ";
+

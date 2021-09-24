@@ -1,0 +1,2499 @@
+/* MEDIA QUERY MEDIA QUERY*/
+/* -360 */
+
+/* MEDIA QUERY MEDIA QUERY*/
+/* -360 */
+@media (max-width: 413px) {
+  header {
+    background-color: #0a2947;
+  }
+
+  .navegador {
+    width: 98vw;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+  }
+
+  .logoMG {
+    padding-left: 1rem;
+
+  }
+
+  .menuNavegador {
+    width: 50vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: flex-start;
+    padding-left: 0.5rem;
+  }
+
+  .opcionesNav {
+    list-style: none;
+
+    a {
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #edeeef;
+    }
+  }
+
+
+
+
+
+
+  /* ANIMACION MENU */
+  .inicio {
+    transition: transform 1.3s;
+
+  }
+
+  .inicio:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .nosotros {
+    transition: transform 1.3s;
+  }
+
+  .nosotros:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .venta {
+    transition: transform 1.3s;
+  }
+
+  .venta:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .alquileres {
+    transition: transform 1.3s;
+  }
+
+  .alquileres:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .contacto {
+    transition: transform 1.3s;
+  }
+
+  .contacto:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  /* FOOTER */
+  .logosFooter {
+    height: 4vh;
+    width: 12vw;
+  }
+
+  .footer {
+    display: -ms-grid;
+    display: grid;
+    background-color: #0f2f56;
+    font-size: 1vh;
+    padding: 0.2rem;
+    height: 12vh;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: " irArriba irArriba"
+      " whatsapp instagram  "
+      "email  desarrolladoPor";
+  }
+
+  .instagram {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: instagram;
+    -ms-flex-item-align: center;
+    align-self: center;
+    justify-self: right;
+    height: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.7rem;
+  }
+
+  .logoInstagram {
+    height: 0.7rem;
+  }
+
+  .whatsapp {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: whatsapp;
+    -ms-flex-item-align: center;
+    align-self: center;
+    justify-self: left;
+    height: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.7rem;
+  }
+
+  .logoWhatsapp {
+    height: 0.7rem;
+  }
+
+  .email {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: email;
+    -ms-flex-item-align: left;
+    align-self: left;
+    justify-self: left;
+    height: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.7rem;
+  }
+
+  .logoEmail {
+    height: 0.7rem;
+  }
+
+  .irArriba {
+    text-align: center;
+    height: 2vh;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: irArriba;
+    font: 0.7rem;
+  }
+
+  .flechaArriba {
+    color: #edeeef;
+    text-decoration: none;
+    text-align: center;
+    height: 1.2rem;
+  }
+
+  .desarrolladoPor {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+    grid-area: desarrolladoPor;
+    justify-self: right;
+    -ms-flex-item-align: right;
+    align-self: right;
+    font-size: 0.8vh;
+    height: 2vh;
+  }
+
+  .desarrolladoPor a {
+    -ms-flex-line-pack: end;
+    align-content: end;
+    padding-left: 3vh;
+    -ms-flex-item-align: right;
+    -ms-grid-row-align: right;
+    align-self: right;
+  }
+
+  footer p {
+    font-size: 1rem;
+    padding: 15px 2px 0px 0px;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #edeeef;
+    text-align: left;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .footer a img {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  /* ANIMACION FOOTER */
+
+  .instagram a {
+    transition: 1s;
+
+  }
+
+  .instagram a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color: violet;
+  }
+
+  .whatsapp a {
+    transition: 1s;
+  }
+
+  .whatsapp a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color: green;
+  }
+
+  .email a {
+    transition: 1s;
+  }
+
+  .email a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color: red;
+
+  }
+
+  .irArriba a svg {
+    transition: 1s;
+
+  }
+
+  .irArriba a svg:hover {
+    transform: scale(2, 2);
+
+
+  }
+
+  /* MAPA */
+  .tituloMapa {
+    font-size: 1.5rem;
+
+  }
+
+  .iframeMapa {
+    margin: 0;
+    padding-left: 0.5rem;
+  }
+
+  /* NOSOTROS */
+  .serviciosBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 0rem;
+    background-color: #edeeef;
+  }
+
+  .fotoBox {
+    padding-left: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #edeeef;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 80%;
+  }
+
+  .fotoServicios {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .servicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: inherit;
+    background-color: #edeeef;
+    border-radius: 0px 4px 4px 0px;
+    height: 55%;
+    width: 80%;
+  }
+
+  .servicios h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: bold;
+  }
+
+  .listaServicios {
+    font-family: "Barlow";
+    font-size: 1.5rem;
+    padding: 0rem;
+  }
+
+  .listaServicios li {
+    padding: 0.5rem 0.5rem 0.5rem 0rem;
+  }
+
+  .nosotrosBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #edeeef;
+    height: 40%;
+  }
+
+  .fotosNos {
+    height: 30vh;
+    width: 80vw;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    -webkit-animation-name: fotosNos;
+    animation-name: fotosNos;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  .textoNos {
+    font-size: 1.5rem;
+    padding: 00.5rem 0.5rem;
+  }
+
+
+
+
+
+  /* CONTACTO */
+  .seccionContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 95vh;
+    width: 95vw;
+    background-color: #0f2f56;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-content: flex-start;
+  }
+
+  .nuestrosDatos {
+    display: inline-flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 80vw;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-self: center;
+    align-content: center;
+
+  }
+
+  .horariosContacto {
+    height: 9vh;
+    width: 80vw;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  .telefonoContacto {
+    height: 5vh;
+    width: 80vw;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  .emailContacto {
+    height: 5vh;
+    width: 80vw;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  .formulario {
+    border-radius: 8px 8px 8px 8px;
+    padding: 0.5rem;
+    width: 80vw;
+    height: 80vh;
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0f2f56;
+    color: #edeeef;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-content: flex-start;
+
+  }
+
+  .nombreConsulta {
+    grid-area: nombre;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+
+  }
+
+  .telefonoConsulta {
+    grid-area: telefono;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .emailConsulta {
+    grid-area: email;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+
+  }
+
+  .consulta {
+    grid-area: consulta;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 60vw;
+  }
+
+  .consulta textarea {
+    width: 70vw;
+  }
+
+  .enviar {
+    font-family: 'Montserrat', sans-serif;
+    grid-area: enviar;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .nombreConsulta label {
+    font-size: 1rem;
+  }
+
+  .telefonoConsulta label {
+    font-size: 1rem;
+  }
+
+  .emailConsulta {
+    font-size: 1rem;
+  }
+
+  .consulta label {
+    font-size: 1rem;
+  }
+
+  /* Animaciones Formulario */
+
+
+  .nombreConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .telefonoConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .emailConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .consulta :hover {
+    transform: scale(1.1, 1.1) translateY(5px);
+  }
+
+  .enviar :hover {
+    transform: scale(1.1, 1.1);
+  }
+  /* FORMULARIO PROPIEDADES */
+  .propiedades {
+    height: 90vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+
+
+  .formularioPropiedades {
+  padding-left: 1.5rem;
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  height: 45vh;
+  width: auto;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  }
+
+  .nombreConsultaPropiedades {
+  font-family: 'Montserrat', sans-serif;
+  color: #edeeef;
+  font-size: 1.5rem;
+  }
+
+  .telefonoConsultaPropiedades {
+  font-family: 'Montserrat', sans-serif;
+  color: #edeeef;
+  font-size: 1.5rem;
+  }
+
+  .consultaPropiedades {
+  font-family: 'Montserrat', sans-serif;
+  color: #edeeef;
+  font-size: 1.5rem;
+  }
+  .consultaPropiedades textarea {
+    width: 80vw;
+  }
+
+  .enviarPropiedades {
+  font-family: 'Montserrat', sans-serif;
+  color: #edeeef;
+  font-size: 1.5rem;
+  align-self: center;
+  }
+  .cajaAcordeon {
+    height: 50vh;
+  }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* MEDIA 414 A 539 */
+@media screen and (max-width: 539px) and (min-width: 414px) {
+  header {
+    background-color: #0a2947;
+  }
+
+  .navegador {
+    width: 98vw;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+  }
+
+  .logoMG {
+    padding-left: 0.5rem;
+
+  }
+
+  .menuNavegador {
+    width: 100vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: flex-start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .opcionesNav {
+    list-style: none;
+
+    a {
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #edeeef;
+    }
+  }
+
+  /* ANIMACION MENU */
+  .inicio {
+    transition: transform 1.3s;
+
+  }
+
+  .inicio:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .nosotros {
+    transition: transform 1.3s;
+  }
+
+  .nosotros:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .venta {
+    transition: transform 1.3s;
+  }
+
+  .venta:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .alquileres {
+    transition: transform 1.3s;
+  }
+
+  .alquileres:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .contacto {
+    transition: transform 1.3s;
+  }
+
+  .contacto:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  /* FOOTER */
+  .logosFooter {
+    height: 4vh;
+    width: 12vw;
+  }
+
+  .footer {
+    display: -ms-grid;
+    display: grid;
+    background-color: #0f2f56;
+    font-size: 1vh;
+    padding: 0.2rem;
+    height: 12vh;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: " irArriba irArriba"
+      " whatsapp instagram  "
+      "email  desarrolladoPor";
+  }
+
+  .instagram {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: instagram;
+    -ms-flex-item-align: center;
+    align-self: center;
+    justify-self: right;
+    height: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.7rem;
+  }
+
+  .logoInstagram {
+    height: 0.7rem;
+  }
+
+  .whatsapp {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: whatsapp;
+    -ms-flex-item-align: center;
+    align-self: center;
+    justify-self: left;
+    height: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.7rem;
+  }
+
+  .logoWhatsapp {
+    height: 0.7rem;
+  }
+
+  .email {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: email;
+    -ms-flex-item-align: left;
+    align-self: left;
+    justify-self: left;
+    height: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.7rem;
+  }
+
+  .logoEmail {
+    height: 0.7rem;
+  }
+
+  .irArriba {
+    text-align: center;
+    height: 2vh;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: irArriba;
+    font: 0.7rem;
+  }
+
+  .flechaArriba {
+    color: #edeeef;
+    text-decoration: none;
+    text-align: center;
+    height: 1.2rem;
+  }
+
+  .desarrolladoPor {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+    grid-area: desarrolladoPor;
+    justify-self: right;
+    -ms-flex-item-align: right;
+    align-self: right;
+    font-size: 0.8vh;
+    height: 2vh;
+  }
+
+  .desarrolladoPor a {
+    -ms-flex-line-pack: end;
+    align-content: end;
+    padding-left: 3vh;
+    -ms-flex-item-align: right;
+    -ms-grid-row-align: right;
+    align-self: right;
+  }
+
+  footer p {
+    font-size: 1rem;
+    padding: 15px 2px 0px 0px;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #edeeef;
+    text-align: left;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .footer a img {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  /* ANIMACION FOOTER */
+
+  .instagram a {
+    transition: 1s;
+
+  }
+
+  .instagram a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color: violet;
+  }
+
+  .whatsapp a {
+    transition: 1s;
+  }
+
+  .whatsapp a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color: green;
+  }
+
+  .email a {
+    transition: 1s;
+  }
+
+  .email a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color: red;
+
+  }
+
+  .irArriba a svg {
+    transition: 1s;
+
+  }
+
+  .irArriba a svg:hover {
+    transform: scale(2, 2);
+
+
+  }
+
+  /* MAPA */
+  .tituloMapa {
+    font-size: 1.8rem;
+
+  }
+
+  .iframeMapa {
+    margin: 0;
+    padding-left: 0.5rem;
+  }
+
+  /* NOSOTROS */
+  .serviciosBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 0rem;
+    background-color: #edeeef;
+  }
+
+  .fotoBox {
+    padding-left: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #edeeef;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 80%;
+  }
+
+  .fotoServicios {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .servicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: inherit;
+    background-color: #edeeef;
+    border-radius: 0px 4px 4px 0px;
+    height: 55%;
+    width: 80%;
+  }
+
+  .servicios h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: bold;
+  }
+
+  .listaServicios {
+    font-family: "Barlow";
+    font-size: 1.5rem;
+    padding: 0rem;
+  }
+
+  .listaServicios li {
+    padding: 0.5rem 0.5rem 0.5rem 0rem;
+  }
+
+  .nosotrosBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #edeeef;
+    height: 40%;
+  }
+
+  .fotosNos {
+    height: 30vh;
+    width: 80vw;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    -webkit-animation-name: fotosNos;
+    animation-name: fotosNos;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  .textoNos {
+    font-size: 1.5rem;
+    padding: 00.5rem 0.5rem;
+  }
+
+
+
+
+
+  /* CONTACTO */
+  .seccionContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 95vh;
+    width: 95vw;
+    background-color: #0f2f56;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-content: flex-start;
+  }
+
+  .nuestrosDatos {
+    display: inline-flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 80vw;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-self: center;
+    align-content: center;
+
+  }
+
+  .horariosContacto {
+    height: 9vh;
+    width: 80vw;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  .telefonoContacto {
+    height: 5vh;
+    width: 80vw;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  .emailContacto {
+    height: 5vh;
+    width: 80vw;
+    padding: 0.5rem;
+    font-size: 1rem;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  .formulario {
+    border-radius: 8px 8px 8px 8px;
+    padding: 0.5rem;
+    width: 80vw;
+    height: 80vh;
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0f2f56;
+    color: #edeeef;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-content: flex-start;
+
+  }
+
+  .nombreConsulta {
+    grid-area: nombre;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+
+  }
+
+  .telefonoConsulta {
+    grid-area: telefono;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .emailConsulta {
+    grid-area: email;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+
+  }
+
+  .consulta {
+    grid-area: consulta;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 60vw;
+  }
+
+  .consulta textarea {
+    width: 70vw;
+  }
+
+  .enviar {
+    font-family: 'Montserrat', sans-serif;
+    grid-area: enviar;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .nombreConsulta label {
+    font-size: 1rem;
+  }
+
+  .telefonoConsulta label {
+    font-size: 1rem;
+  }
+
+  .emailConsulta {
+    font-size: 1rem;
+  }
+
+  .consulta label {
+    font-size: 1rem;
+  }
+
+  /* Animaciones Formulario */
+
+
+  .nombreConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .telefonoConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .emailConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .consulta :hover {
+    transform: scale(1.1, 1.1) translateY(5px);
+  }
+
+  .enviar :hover {
+    transform: scale(1.1, 1.1);
+  }
+    /* FORMULARIO PROPIEDADES */
+    .propiedades {
+      height: 95vh;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+    }
+  
+  
+    .formularioPropiedades {
+    padding-left: 1.5rem;
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    height: 45vh;
+    width: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+  
+    }
+  
+    .nombreConsultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+    }
+  
+    .telefonoConsultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+    }
+  
+    .consultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+    }
+    .consultaPropiedades textarea {
+      width: 80vw;
+    }
+  
+    .enviarPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+    align-self: center;
+    }
+    .cajaAcordeon {
+      height: 45vh;
+    }
+
+
+
+
+
+}
+
+/* MEDIA 540 A 767 */
+@media screen and (max-width: 767px) and (min-width: 540px) {
+  header {
+    background-color: #0a2947;
+  }
+
+  .navegador {
+    width: 100vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-self: flex-end;
+  }
+
+  .logoMG {
+    padding-left: 0.5rem;
+
+  }
+
+  .menuNavegador {
+    width: 100vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-self: flex-end;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .opcionesNav {
+    list-style: none;
+
+    a {
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #edeeef;
+    }
+  }
+
+  /* ANIMACION MENU */
+  .inicio {
+    transition: transform 1.3s;
+
+  }
+
+  .inicio:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .nosotros {
+    transition: transform 1.3s;
+  }
+
+  .nosotros:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .venta {
+    transition: transform 1.3s;
+  }
+
+  .venta:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .alquileres {
+    transition: transform 1.3s;
+  }
+
+  .alquileres:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .contacto {
+    transition: transform 1.3s;
+  }
+
+  .contacto:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  /* FOOTER */
+  .logosFooter {
+    height: 4vh;
+    width: 12vw;
+  }
+
+  .footer {
+    display: -ms-grid;
+    display: grid;
+    background-color: #0f2f56;
+    font-size: 1vh;
+    padding: 0.2rem;
+    height: 12vh;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: " irArriba irArriba"
+      " whatsapp instagram  "
+      "email  desarrolladoPor";
+  }
+
+  .instagram {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: instagram;
+    -ms-flex-item-align: center;
+    align-self: center;
+    justify-self: right;
+    height: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.7rem;
+  }
+
+  .logoInstagram {
+    height: 0.7rem;
+  }
+
+  .whatsapp {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: whatsapp;
+    -ms-flex-item-align: center;
+    align-self: center;
+    justify-self: left;
+    height: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.7rem;
+  }
+
+  .logoWhatsapp {
+    height: 0.7rem;
+  }
+
+  .email {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: email;
+    -ms-flex-item-align: left;
+    align-self: left;
+    justify-self: left;
+    height: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.7rem;
+  }
+
+  .logoEmail {
+    height: 0.7rem;
+  }
+
+  .irArriba {
+    text-align: center;
+    height: 2vh;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: irArriba;
+    font: 0.7rem;
+  }
+
+  .flechaArriba {
+    color: #edeeef;
+    text-decoration: none;
+    text-align: center;
+    height: 1.2rem;
+  }
+
+  .desarrolladoPor {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+    grid-area: desarrolladoPor;
+    justify-self: right;
+    -ms-flex-item-align: right;
+    align-self: right;
+    font-size: 0.8vh;
+    height: 2vh;
+  }
+
+  .desarrolladoPor a {
+    -ms-flex-line-pack: end;
+    align-content: end;
+    padding-left: 3vh;
+    -ms-flex-item-align: right;
+    -ms-grid-row-align: right;
+    align-self: right;
+  }
+
+  footer p {
+    font-size: 1rem;
+    padding: 15px 2px 0px 0px;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #edeeef;
+    text-align: left;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .footer a img {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  /* ANIMACION FOOTER */
+
+  .instagram a {
+    transition: 1s;
+
+  }
+
+  .instagram a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color: violet;
+  }
+
+  .whatsapp a {
+    transition: 1s;
+  }
+
+  .whatsapp a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color: green;
+  }
+
+  .email a {
+    transition: 1s;
+  }
+
+  .email a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color: red;
+
+  }
+
+  .irArriba a svg {
+    transition: 1s;
+
+  }
+
+  .irArriba a svg:hover {
+    transform: scale(2, 2);
+
+
+  }
+
+  /* MAPA */
+  .tituloMapa {
+    font-size: 1.8rem;
+
+  }
+
+  .iframeMapa {
+    margin: 0;
+    padding-left: 1.5rem;
+  }
+
+  /* NOSOTROS */
+  .serviciosBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 0rem;
+    background-color: #edeeef;
+  }
+
+  .fotoBox {
+    padding-left: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #edeeef;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 80%;
+  }
+
+  .fotoServicios {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .servicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: inherit;
+    background-color: #edeeef;
+    border-radius: 0px 4px 4px 0px;
+    height: 55%;
+    width: 80%;
+  }
+
+  .servicios h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: bold;
+  }
+
+  .listaServicios {
+    font-family: "Barlow";
+    font-size: 1.5rem;
+    padding: 0rem;
+  }
+
+  .listaServicios li {
+    padding: 0.5rem 0.5rem 0.5rem 0rem;
+  }
+
+  .nosotrosBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #edeeef;
+    height: 40%;
+  }
+
+  .fotosNos {
+    height: 30vh;
+    width: 80vw;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    -webkit-animation-name: fotosNos;
+    animation-name: fotosNos;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  .textoNos {
+    font-size: 1.5rem;
+    padding: 00.5rem 0.5rem;
+  }
+
+
+
+
+
+  /* CONTACTO */
+  .seccionContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 95vh;
+    width: 95vw;
+    background-color: #0f2f56;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-content: flex-start;
+  }
+
+  .nuestrosDatos {
+    display: inline-flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 80vw;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-self: center;
+    align-content: center;
+
+  }
+
+  .horariosContacto {
+    height: 9vh;
+    width: 80vw;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  .telefonoContacto {
+    height: 5vh;
+    width: 80vw;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  .emailContacto {
+    height: 5vh;
+    width: 80vw;
+    padding: 0.5rem;
+    font-size: 1rem;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  .formulario {
+    border-radius: 8px 8px 8px 8px;
+    padding: 0.5rem;
+    width: 80vw;
+    height: 80vh;
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0f2f56;
+    color: #edeeef;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-content: flex-start;
+
+  }
+
+  .nombreConsulta {
+    grid-area: nombre;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+
+  }
+
+  .telefonoConsulta {
+    grid-area: telefono;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .emailConsulta {
+    grid-area: email;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+
+  }
+
+  .consulta {
+    grid-area: consulta;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 60vw;
+  }
+
+  .consulta textarea {
+    width: 70vw;
+  }
+
+  .enviar {
+    font-family: 'Montserrat', sans-serif;
+    grid-area: enviar;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .nombreConsulta label {
+    font-size: 1rem;
+  }
+
+  .telefonoConsulta label {
+    font-size: 1rem;
+  }
+
+  .emailConsulta {
+    font-size: 1rem;
+  }
+
+  .consulta label {
+    font-size: 1rem;
+  }
+
+  /* Animaciones Formulario */
+
+
+  .nombreConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .telefonoConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .emailConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .consulta :hover {
+    transform: scale(1.1, 1.1) translateY(5px);
+  }
+
+  .enviar :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+
+  /* FORMULARIO PROPIEDADES */
+  .propiedades {
+    height: 110vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+
+
+  .formularioPropiedades {
+  padding-left: 1.5rem;
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  height: 45vh;
+  width: auto;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  }
+
+  .nombreConsultaPropiedades {
+  font-family: 'Montserrat', sans-serif;
+  color: #edeeef;
+  font-size: 1.5rem;
+  }
+
+  .telefonoConsultaPropiedades {
+  font-family: 'Montserrat', sans-serif;
+  color: #edeeef;
+  font-size: 1.5rem;
+  }
+
+  .consultaPropiedades {
+  font-family: 'Montserrat', sans-serif;
+  color: #edeeef;
+  font-size: 1.5rem;
+  }
+
+  .enviarPropiedades {
+  font-family: 'Montserrat', sans-serif;
+  color: #edeeef;
+  font-size: 1.5rem;
+  align-self: center;
+  }
+  .cajaAcordeon {
+    height: 45vh;
+  }
+
+
+}
+
+/* 768  a 1024 */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+  /* HEADER */
+  header {
+    background-color: #0a2947;
+  }
+
+  .navegador {
+    width: 98vw;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: flex-end;
+  }
+
+  .logoMG {
+    padding-left: 2rem;
+  }
+
+  .menuNavegador {
+    width: 70vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-self: flex-end;
+
+  }
+
+  .opcionesNav {
+    list-style: none;
+
+    a {
+      font-size: 2.3rem;
+      text-decoration: none;
+      color: #edeeef;
+    }
+  }
+
+
+
+
+
+
+  /* ANIMACION MENU */
+  .inicio {
+    transition: transform 1.3s;
+
+  }
+
+  .inicio:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .nosotros {
+    transition: transform 1.3s;
+  }
+
+  .nosotros:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .venta {
+    transition: transform 1.3s;
+  }
+
+  .venta:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .alquileres {
+    transition: transform 1.3s;
+  }
+
+  .alquileres:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+  .contacto {
+    transition: transform 1.3s;
+  }
+
+  .contacto:hover {
+    transform: scale(1.2, 1.2);
+    transform: translateY(-10px);
+  }
+
+
+
+
+  /* MAPA */
+  /* MAPA */
+
+  .mapa {
+    background-color: #0f2f56;
+    display: grid flex;
+    grid-template-rows: 1fr 4fr 2fr;
+    grid-template-areas: "tituloMapa plano ejercicios";
+  }
+
+  .tituloMapa {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    grid-area: tituloMapa;
+    font-size: 2.5rem;
+    text-align: LEFT;
+    color: #edeeef;
+    padding: 1rem;
+    margin-left: 1rem;
+
+  }
+
+
+  .plano {
+    grid-area: plano;
+    height: 50rem;
+    width: 99%;
+    float: center;
+
+  }
+
+  .iframeMapa {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-self: center;
+    align-content: center;
+    margin: 1rem;
+    width: 97vw;
+  }
+
+
+  /* FOOTER */
+  /* FOOTER */
+
+
+
+  .footer {
+    display: -ms-grid;
+    display: grid;
+    background-color: #0f2f56;
+    font-size: 1vh;
+    padding: 0.2rem;
+    height: 12vh;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: " irArriba irArriba"
+      " whatsapp instagram  "
+      "email  desarrolladoPor";
+  }
+
+  .instagram {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: instagram;
+    -ms-flex-item-align: center;
+    align-self: center;
+    justify-self: right;
+    height: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1rem;
+  }
+
+  .logoInstagram {
+    height: 1rem;
+  }
+
+  .whatsapp {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: whatsapp;
+    -ms-flex-item-align: center;
+    align-self: center;
+    justify-self: left;
+    height: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1rem;
+  }
+
+  .logoWhatsapp {
+    height: 1rem;
+  }
+
+  .email {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: email;
+    -ms-flex-item-align: left;
+    align-self: left;
+    justify-self: left;
+    height: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1rem;
+  }
+
+  .logoEmail {
+    height: 1rem;
+  }
+
+  .irArriba {
+    text-align: center;
+    height: 2vh;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: irArriba;
+    font: 1rem;
+  }
+
+  .flechaArriba {
+    color: #edeeef;
+    text-decoration: none;
+    text-align: center;
+    height: 1.5rem;
+  }
+
+  .desarrolladoPor {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+    grid-area: desarrolladoPor;
+    justify-self: right;
+    -ms-flex-item-align: right;
+    align-self: right;
+    font-size: 0.8vh;
+    height: 2vh;
+  }
+
+  .desarrolladoPor a {
+    -ms-flex-line-pack: end;
+    align-content: end;
+    padding-left: 3vh;
+    -ms-flex-item-align: right;
+    -ms-grid-row-align: right;
+    align-self: right;
+  }
+
+  footer p {
+    font-size: 1rem;
+    padding: 15px 2px 0px 0px;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #edeeef;
+    text-align: left;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .footer a img {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  /* ANIMACION FOOTER */
+
+  .instagram a {
+    transition: 1s;
+
+  }
+
+  .instagram a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color: violet;
+  }
+
+  .whatsapp a {
+    transition: 1s;
+  }
+
+  .whatsapp a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color: green;
+  }
+
+  .email a {
+    transition: 1s;
+  }
+
+  .email a:hover {
+    transform: scale(1.1, 1.1) translateX(15px);
+    color: red;
+
+  }
+
+  .irArriba a svg {
+    transition: 1s;
+
+  }
+
+  .irArriba a svg:hover {
+    transform: scale(2, 2);
+
+
+  }
+
+  /* CONTACTANOS */
+  /* CONTACTANOS */
+  /* NUESTROS DATOS */
+  .seccionContacto {
+    height: fit-content;
+    border-radius: 8px 8px 8px 8px;
+    width: 97vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem;
+    background-color: #0a2947;
+
+  }
+
+  .nuestrosDatos {
+    border-radius: 8px 8px 8px 8px;
+    margin: 1rem;
+    width: 40vw;
+    background-color: #0f2f56;
+    color: #edeeef;
+    font-size: 1.5rem;
+    grid-area: nuestrosDatos;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+
+  }
+
+  .horariosContacto {
+    padding: 1rem 2rem 1rem 2rem;
+    height: 8vh;
+    width: 40vw;
+    font-size: 1.5rem;
+
+  }
+
+  .telefonoContacto {
+    padding: 1rem 2rem 1rem 2rem;
+    height: 6vh;
+    width: 40vw;
+    font-size: 1.5rem;
+  }
+
+  .emailContacto {
+    padding: 1rem 2rem 1rem 2rem;
+    height: 6vh;
+    width: 40vw;
+    font-size: 1.5rem;
+  }
+
+  .emailContacto a {
+    color: #edeeef;
+    text-decoration: none;
+  }
+
+  /* FORMULARIO */
+  .formulario {
+    border-radius: 8px 8px 8px 8px;
+    padding: 1rem;
+    width: 40vw;
+    height: 60%;
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0f2f56;
+    color: #edeeef;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: flex-start;
+    align-content: flex-start;
+
+  }
+
+  .nombreConsulta {
+    grid-area: nombre;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+
+  }
+
+  .telefonoConsulta {
+    grid-area: telefono;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+  }
+
+  .emailConsulta {
+    grid-area: email;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+
+  }
+
+  .consulta {
+    grid-area: consulta;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+
+  }
+  .consulta textarea {
+    width: 30vw;
+  }
+
+  .enviar {
+    font-family: 'Montserrat', sans-serif;
+    grid-area: enviar;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+  }
+
+  .nombreConsulta label {
+    font-size: 1.7rem;
+  }
+
+  .telefonoConsulta label {
+    font-size: 1.7rem;
+  }
+
+  .emailConsulta {
+    font-size: 1.7rem;
+  }
+
+  .consulta label {
+    font-size: 1.7rem;
+  }
+
+  /* Animaciones Formulario */
+
+
+  .nombreConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .telefonoConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .emailConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .consulta :hover {
+    transform: scale(1.1, 1.1) translateY(5px);
+  }
+
+  .enviar :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+
+
+  /* NOSOTROS */
+  /* NOSOTROS */
+  /* SERVICIOS */
+  .nosotrosServicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0f2f56;
+  }
+
+
+  .serviciosBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #edeeef;
+    height: 40%;
+
+
+  }
+
+  .fotoBox {
+
+    border-radius: 4px 0px 0px 4px;
+    background-color: #edeeef;
+    justify-content: space-evenly;
+    height: 55%;
+    padding: 0;
+
+  }
+
+  .fotoServicios {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+
+
+  }
+
+  .servicios {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    background-color: #edeeef;
+    border-radius: 0px 4px 4px 0px;
+    height: 55%;
+
+    h3 {
+      font-size: 3rem;
+      text-align: center;
+      font-style: bold;
+
+    }
+
+  }
+
+
+  .listaServicios {
+    font-size: 2rem;
+
+    li {
+      padding: 2rem 2rem 2rem 0rem;
+    }
+  }
+
+
+
+  /* NOSOTROS */
+  .nosotrosBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-self: flex-start;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #edeeef;
+    height: 40%;
+
+  }
+
+  .fotosNos {
+    height: 24vh;
+    width: 31vw;
+    padding: 0.5rem;
+    border-radius: 8px;
+    animation-name: fotosNos;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+  }
+
+  .textoNos {
+    font-size: 2rem;
+    padding: 00.5rem;
+  }
+
+  /* ALQUILERES */
+  .seccionAlquileres {
+    padding: 3rem;
+    background-color: #0f2f56;
+  }
+
+  /* VENTAS */
+
+  .seccionVentas {
+    padding: 3rem;
+    background-color: #0f2f56;
+
+  }
+
+  .titulo-producciones {
+    font-size: 2rem;
+  }
+
+  .texto-producciones {
+    font-size: 1.5rem;
+  }
+
+
+
+
+  /* VISTA PROPIEDADES */
+  .propiedades {
+    background-color: #0a2947;
+    border-radius: 8px;
+    margin-top: 5px;
+  }
+
+
+
+  .acordeon {
+    display: grid;
+    padding: 3rem 1.25rem;
+    font-size: 1.2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .barrio {
+    flex-direction: 3;
+  }
+
+
+  /* FORMULARIO PROPIEDADES */
+  .formularioPropiedades {
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    height: 45vh;
+    width: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+
+  }
+
+  .nombreConsultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+  }
+
+  .telefonoConsultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+  }
+
+  .consultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+  }
+
+  .enviarPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+    align-self: center;
+  }
+
+
+
+}
