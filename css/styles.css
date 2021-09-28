@@ -240,6 +240,10 @@ header {
 
 /* FOOTER */
 /* FOOTER */
+footer {
+  padding-top: 0.5rem;
+}
+
 .logoInstagram {
   padding-right: 0.5rem;
   font-size: 2rem;
