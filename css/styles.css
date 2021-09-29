@@ -198,7 +198,7 @@ header {
   display: grid flex;
   -ms-grid-rows: 1fr 4fr 2fr;
       grid-template-rows: 1fr 4fr 2fr;
-      grid-template-areas: "tituloMapa plano ejercicios";
+      grid-template-areas: "tituloMapa plano";
 }
 
 .tituloMapa {
@@ -288,9 +288,7 @@ footer {
       grid-template-columns: auto auto auto;
   -ms-grid-rows: auto auto auto;
       grid-template-rows: auto auto auto;
-      grid-template-areas: "instagram irArriba divisorFooter"
- " whatsapp whatsapp whatsapp"
- "email email desarrolladoPor";
+      grid-template-areas: "instagram irArriba divisorFooter" " whatsapp whatsapp whatsapp" "email email desarrolladoPor";
 }
 
 .instagram {
@@ -1064,9 +1062,7 @@ footer p {
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
-        grid-template-areas: " irArriba irArriba"
- " whatsapp instagram  "
- "email  desarrolladoPor";
+        grid-template-areas: " irArriba irArriba" " whatsapp instagram  " "email  desarrolladoPor";
   }
   .instagram {
     -ms-grid-row: 2;
@@ -1674,9 +1670,7 @@ footer p {
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
-        grid-template-areas: " irArriba irArriba"
- " whatsapp instagram  "
- "email  desarrolladoPor";
+        grid-template-areas: " irArriba irArriba" " whatsapp instagram  " "email  desarrolladoPor";
   }
   .instagram {
     -ms-grid-row: 2;
@@ -2284,9 +2278,7 @@ footer p {
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
-        grid-template-areas: " irArriba irArriba"
- " whatsapp instagram  "
- "email  desarrolladoPor";
+        grid-template-areas: " irArriba irArriba" " whatsapp instagram  " "email  desarrolladoPor";
   }
   .instagram {
     -ms-grid-row: 2;
@@ -2926,9 +2918,7 @@ footer p {
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
-        grid-template-areas: " irArriba irArriba"
- " whatsapp instagram  "
- "email  desarrolladoPor";
+        grid-template-areas: " irArriba irArriba" " whatsapp instagram  " "email  desarrolladoPor";
   }
   .instagram {
     -ms-grid-row: 2;
