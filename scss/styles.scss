@@ -30,9 +30,10 @@ header {
     justify-content: space-evenly;
     align-items: flex-end;
     align-self: flex-end;
-    margin-bottom: 0rem;
+    margin-bottom: 0rem !important;
 
 }
+
 .opcionesNav {
     list-style: none;
     a {
