@@ -173,13 +173,12 @@ header {
 }
 
 .footer {
-    height: 100vh;
+    height: 18vh;
     width: auto;
     display: grid;
     background-color: #0a2947;
     font-size: 1.6rem;
-    margin: 0.5rem;
-    padding: 0.5rem;
+    margin: 1rem;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     grid-template-areas: "instagram irArriba divisorFooter"
@@ -226,7 +225,7 @@ header {
 
 
 .desarrolladoPor {
-    height: 6vh;
+    height: 4vh;
     grid-area: desarrolladoPor;
     justify-content: end;
     justify-items: end;
