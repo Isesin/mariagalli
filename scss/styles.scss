@@ -141,9 +141,7 @@ header {
 /* FOOTER */
 /* FOOTER */
 
-footer {
-    padding-top: 1rem;
-}
+
 .logoInstagram {
     padding-right: 0.5rem;
     font-size: 2rem;
@@ -175,12 +173,13 @@ footer {
 }
 
 .footer {
-    height: 18vh;
+    height: 100vh;
     width: auto;
     display: grid;
     background-color: #0a2947;
     font-size: 1.6rem;
     margin: 0.5rem;
+    padding: 0.5rem;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     grid-template-areas: "instagram irArriba divisorFooter"
