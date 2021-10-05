@@ -140,7 +140,21 @@ header {
 
 /* FOOTER */
 /* FOOTER */
+.footer {
+    height: 18vh;
+    width: auto;
+    display: grid;
+    background-color: #0a2947;
+    font-size: 1.6rem;
+    margin: 1rem;
+    padding-top: 0.5rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "instagram irArriba divisorFooter"
+        " whatsapp whatsapp whatsapp"
+        "email email desarrolladoPor";
 
+}
 
 .logoInstagram {
     padding-right: 0.5rem;
@@ -172,23 +186,10 @@ header {
     align-self: center;
 }
 
-.footer {
-    height: 18vh;
-    width: auto;
-    display: grid;
-    background-color: #0a2947;
-    font-size: 1.6rem;
-    margin: 1rem;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "instagram irArriba divisorFooter"
-        " whatsapp whatsapp whatsapp"
-        "email email desarrolladoPor";
 
-}
 
 .instagram {
-    height: 6vh;
+    height: 5vh;
     grid-area: instagram;
     align-self: end;
     justify-self: left;
@@ -199,21 +200,21 @@ header {
 }
 
 .whatsapp {
-    height: 6vh;
+    height: 5vh;
     grid-area: whatsapp;
     align-self: center;
     justify-self: left;
 }
 
 .email {
-    height: 6vh;
+    height: 5vh;
     grid-area: email;
     align-self: center;
     justify-self: left;
 }
 
 .irArriba {
-    height: 6vh;
+    height: 5vh;
     display: grid;
     text-align: center;
     align-content: center;
