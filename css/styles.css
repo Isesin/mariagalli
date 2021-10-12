@@ -619,15 +619,18 @@ footer p {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-item-align: center;
       align-self: center;
-  margin: 2rem;
-  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   background-color: #edeeef;
   height: 50vh;
+  width: 70vw;
 }
 
 .fotoBox {
@@ -650,7 +653,7 @@ footer p {
 
 .fotoServicios {
   height: 35vh;
-  width: 35vw;
+  width: 25vw;
   border-radius: 8px;
 }
 
@@ -666,8 +669,17 @@ footer p {
   padding-top: 1rem;
   background-color: #edeeef;
   border-radius: 0px 4px 4px 0px;
-  height: 45vh;
-  width: 45vw;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  height: 40vh;
+  width: 40vw;
+  margin: auto;
 }
 
 .servicios h3 {
@@ -701,16 +713,18 @@ footer p {
           align-items: flex-start;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  margin: 1rem;
+  margin: auto;
   padding: 2rem;
   background-color: #edeeef;
   height: 40%;
 }
 
 .fotosNos {
-  height: 40vh;
-  width: 31vw;
+  height: 35vh;
+  width: 30vw;
   padding: 0.5rem;
+  margin: auto;
+  display: block;
   border-radius: 8px;
   -webkit-animation-name: fotosNos;
           animation-name: fotosNos;
@@ -725,6 +739,7 @@ footer p {
 .textoNos {
   font-size: 2rem;
   padding: 00.5rem;
+  display: block;
 }
 
 /* BREADCRUMBS */
