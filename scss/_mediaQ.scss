@@ -23,12 +23,12 @@
   }
 
   .menuNavegador {
-    width: 50vw;
+    width: 40vw;
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-self: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
     padding-left: 0.5rem;
   }
 
@@ -39,6 +39,7 @@
       font-size: 1.5rem;
       text-decoration: none;
       color: #edeeef;
+      padding-left: 0.3rem;
     }
   }
 
@@ -106,6 +107,7 @@
     background-color: #0f2f56;
     font-size: 1vh;
     padding: 0.2rem;
+    margin: 1rem;
     height: 12vh;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -123,7 +125,7 @@
     -ms-flex-item-align: center;
     align-self: center;
     justify-self: right;
-    height: 2vh;
+    height: 4vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -142,7 +144,7 @@
     -ms-flex-item-align: center;
     align-self: center;
     justify-self: left;
-    height: 2vh;
+    height: 4vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -161,7 +163,7 @@
     -ms-flex-item-align: left;
     align-self: left;
     justify-self: left;
-    height: 2vh;
+    height: 4vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -277,10 +279,7 @@
 
   }
 
-  .iframeMapa {
-    margin: 0;
-    padding-left: 0.5rem;
-  }
+
 
   /* NOSOTROS */
   .serviciosBox {
@@ -300,6 +299,8 @@
     margin: 1rem;
     padding: 0rem;
     background-color: #edeeef;
+    width: auto;
+    height: auto;
   }
 
   .fotoBox {
@@ -311,13 +312,13 @@
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    height: 70%;
-    width: 80%;
+    height: 35vh;
+    width: 80vw;
   }
 
   .fotoServicios {
-    height: 100%;
-    width: 100%;
+    height: 30vh;
+    width: 70vw;
     border-radius: 8px;
   }
 
@@ -332,8 +333,9 @@
     padding: inherit;
     background-color: #edeeef;
     border-radius: 0px 4px 4px 0px;
-    height: 55%;
-    width: 80%;
+    height: auto ;
+    width: auto;
+
   }
 
   .servicios h3 {
@@ -346,11 +348,15 @@
   .listaServicios {
     font-family: "Barlow";
     font-size: 1.5rem;
-    padding: 0rem;
+    padding: 0.5rem;
+    height: auto;
+    width: 95vw;
+    text-decoration: none;
   }
 
   .listaServicios li {
     padding: 0.5rem 0.5rem 0.5rem 0rem;
+    list-style: none;
   }
 
   .nosotrosBox {
@@ -962,6 +968,7 @@
     font-family: "Barlow";
     font-size: 1.5rem;
     padding: 0rem;
+    text-decoration: none;
   }
 
   .listaServicios li {
@@ -1524,6 +1531,8 @@
     margin: 1rem;
     padding: 0rem;
     background-color: #edeeef;
+    height: auto;
+    width: 60vw;
   }
 
   .fotoBox {
@@ -1571,6 +1580,7 @@
     font-family: "Barlow";
     font-size: 1.5rem;
     padding: 0rem;
+    text-decoration: none;
   }
 
   .listaServicios li {
@@ -1594,7 +1604,8 @@
     margin: 1rem;
     padding: 2rem;
     background-color: #edeeef;
-    height: 40%;
+    height: auto;
+    width: auto;
   }
 
   .fotosNos {
