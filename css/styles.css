@@ -200,6 +200,7 @@ header {
   -ms-grid-rows: 1fr 4fr 2fr;
       grid-template-rows: 1fr 4fr 2fr;
       grid-template-areas: "tituloMapa plano";
+  margin: auto;
 }
 
 .tituloMapa {
@@ -212,31 +213,35 @@ header {
   text-align: LEFT;
   color: #edeeef;
   padding: 1rem;
-  margin-left: 1rem;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .plano {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: plano;
-  height: 50rem;
-  width: 99%;
-  float: center;
+  height: 55rem;
+  width: 98%;
+  margin: auto;
+  margin-bottom: 3rem;
 }
 
 .iframeMapa {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: block;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  text-align: center;
   -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
       align-self: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin: 1rem;
-  width: 97vw;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 3rem;
 }
 
 /* FOOTER */

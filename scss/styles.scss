@@ -106,6 +106,8 @@ header {
     display: grid flex;
     grid-template-rows: 1fr 4fr 2fr;
     grid-template-areas: "tituloMapa plano";
+    margin:auto;
+
 }
 
 .tituloMapa {
@@ -116,25 +118,30 @@ header {
     text-align: LEFT;
     color: #edeeef;
     padding: 1rem;
-    margin-left: 1rem;
-
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
 .plano {
     grid-area: plano;
-    height: 50rem;
-    width: 99%;
-    float: center;
-
+    height: 55rem;
+    width: 98%;
+    margin:auto;
+    margin-bottom: 3rem;
 }
 .iframeMapa {
-    display: inline-flex;
+    display: block;
     justify-content: space-evenly;
+    text-align: center;
     align-self: center;
     align-content: center;
-    margin: 1rem;
-    width: 97vw;
+    width: 95%;
+    margin:auto;
+    margin-bottom: 3rem;
+    
+
 }
 
 
