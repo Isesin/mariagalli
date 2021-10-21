@@ -656,8 +656,9 @@ footer p {
   margin-top: 4rem;
   margin-bottom: 4rem;
   background-color: #edeeef;
-  height: auto;
   width: 70vw;
+  max-height: auto;
+  min-height: 50vh;
 }
 
 .fotoBox {
@@ -1984,8 +1985,8 @@ footer p {
     height: 40%;
   }
   .fotosNos {
-    height: 30vh;
-    width: 80vw;
+    height: 40vh;
+    width: 60vw;
     padding: 1rem 1rem;
     border-radius: 8px;
     -webkit-animation-name: fotosNos;
@@ -2596,8 +2597,8 @@ footer p {
     width: auto;
   }
   .fotosNos {
-    height: 30vh;
-    width: 80vw;
+    height: 45vh;
+    width: 60vw;
     padding: 1rem 1rem;
     border-radius: 8px;
     -webkit-animation-name: fotosNos;
@@ -2839,8 +2840,8 @@ footer p {
   }
 }
 
-/* 768  a 1024 */
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
+/* 768  a 1280 */
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
   /* HEADER */
   header {
     background-color: #0a2947;
@@ -2995,118 +2996,138 @@ footer p {
   /* FOOTER */
   /* FOOTER */
   .footer {
+    height: 15vh;
+    width: auto;
     display: -ms-grid;
     display: grid;
-    background-color: #0f2f56;
-    font-size: 1vh;
-    padding: 0.2rem;
-    height: 12vh;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-        grid-template-areas: " irArriba irArriba" " whatsapp instagram  " "email  desarrolladoPor";
+    background-color: #0a2947;
+    font-size: 1.6rem;
+    margin: 1rem;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    -ms-grid-rows: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "instagram irArriba divisorFooter" " whatsapp whatsapp whatsapp" "email email desarrolladoPor";
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
   }
-  .instagram {
-    -ms-grid-row: 2;
-    -ms-grid-column: 2;
-    grid-area: instagram;
-    -ms-flex-item-align: center;
-    align-self: center;
-    justify-self: right;
-    height: 2vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 1rem;
+  .footer div {
+    text-align: center;
   }
   .logoInstagram {
-    height: 1rem;
-  }
-  .whatsapp {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-    grid-area: whatsapp;
-    -ms-flex-item-align: center;
-    align-self: center;
-    justify-self: left;
-    height: 2vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 1rem;
+    padding-right: 0.5rem;
+    font-size: 2rem;
   }
   .logoWhatsapp {
-    height: 1rem;
-  }
-  .email {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    grid-area: email;
-    -ms-flex-item-align: left;
-    align-self: left;
-    justify-self: left;
-    height: 2vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 1rem;
+    padding-right: 0.5rem;
+    font-size: 2rem;
   }
   .logoEmail {
-    height: 1rem;
-  }
-  .irArriba {
-    text-align: center;
-    height: 2vh;
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-area: irArriba;
-    font: 1rem;
-  }
-  .flechaArriba {
-    color: #edeeef;
-    text-decoration: none;
-    text-align: center;
-    height: 1.5rem;
-  }
-  .desarrolladoPor {
-    -ms-grid-row: 3;
-    -ms-grid-column: 2;
-    grid-area: desarrolladoPor;
-    -ms-grid-column-align: right;
-        justify-self: right;
-    -ms-flex-item-align: right;
-    -ms-grid-row-align: right;
-        align-self: right;
-    font-size: 0.8vh;
-    height: 2vh;
-  }
-  .desarrolladoPor a {
-    -ms-flex-line-pack: end;
-    align-content: end;
-    padding-left: 3vh;
-    -ms-flex-item-align: right;
-    -ms-grid-row-align: right;
-    align-self: right;
-  }
-  footer p {
-    font-size: 1rem;
-    padding: 15px 2px 0px 0px;
+    padding-right: 0.5rem;
+    font-size: 2rem;
   }
   .footer a {
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #edeeef;
-    text-align: left;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
   .footer a img {
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .instagram {
+    height: auto;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: instagram;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .whatsapp {
+    height: auto;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: whatsapp;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .email {
+    height: auto;
+    width: auto;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: email;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .irArriba {
+    height: auto;
+    display: -ms-grid;
+    display: grid;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: irArriba;
+  }
+  .desarrolladoPor {
+    height: auto;
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+    grid-area: desarrolladoPor;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  footer p {
+    font-size: 1rem;
   }
   /* ANIMACION FOOTER */
   .instagram a {
@@ -3252,6 +3273,7 @@ footer p {
   .emailConsulta {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
     grid-area: email;
     padding: 0.5rem 2rem;
     border-radius: 4px;
@@ -3321,6 +3343,7 @@ footer p {
         -ms-flex-pack: justify;
             justify-content: space-between;
     background-color: #0f2f56;
+    width: 100%;
   }
   .serviciosBox {
     display: -webkit-box;
@@ -3389,22 +3412,57 @@ footer p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
-    margin: 1rem;
-    padding: 2rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     background-color: #edeeef;
-    height: 40%;
+    height: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 4px 4px 4px 4px;
+  }
+  .nosotrosBox div {
+    height: auto;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin: 1rem;
+  }
+  .nosotrosBox div p {
+    font-size: 2rem;
+    padding: 00.5rem;
+    width: auto;
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    min-height: 23vh;
   }
   .fotosNos {
-    height: 24vh;
-    width: 31vw;
+    height: 30vh;
+    width: 28vw;
     padding: 0.5rem;
     border-radius: 8px;
     -webkit-animation-name: fotosNos;

@@ -996,8 +996,8 @@
   }
 
   .fotosNos {
-    height: 30vh;
-    width: 80vw;
+    height: 40vh;
+    width: 60vw;
     padding: 1rem 1rem;
     border-radius: 8px;
     -webkit-animation-name: fotosNos;
@@ -1609,8 +1609,8 @@
   }
 
   .fotosNos {
-    height: 30vh;
-    width: 80vw;
+    height: 45vh;
+    width: 60vw;
     padding: 1rem 1rem;
     border-radius: 8px;
     -webkit-animation-name: fotosNos;
@@ -1846,8 +1846,8 @@
 
 }
 
-/* 768  a 1024 */
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
+/* 768  a 1280 */
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
 
   /* HEADER */
   header {
@@ -1985,136 +1985,110 @@
   /* FOOTER */
   /* FOOTER */
 
-
-
   .footer {
-    display: -ms-grid;
+    height: 15vh;
+    width: auto;
     display: grid;
-    background-color: #0f2f56;
-    font-size: 1vh;
-    padding: 0.2rem;
-    height: 12vh;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr 1fr;
+    background-color: #0a2947;
+    font-size: 1.6rem;
+    margin: 1rem;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    grid-template-areas: " irArriba irArriba"
-      " whatsapp instagram  "
-      "email  desarrolladoPor";
-  }
+    grid-template-areas: "instagram irArriba divisorFooter"
+        " whatsapp whatsapp whatsapp"
+        "email email desarrolladoPor";
+    justify-content: space-between;
+    align-content: space-between;
+        div {
+        text-align: center;
+        }
 
-  .instagram {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
+
+}
+
+.logoInstagram {
+    padding-right: 0.5rem;
+    font-size: 2rem;
+
+}
+
+.logoWhatsapp {
+    padding-right: 0.5rem;
+    font-size: 2rem;
+
+}
+
+.logoEmail {
+    padding-right: 0.5rem;
+    font-size: 2rem;
+
+}
+
+.footer a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #edeeef;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    display: flex;
+}
+.footer a img {
+    align-self: center;
+}
+
+
+
+.instagram {
+    height: auto;
     grid-area: instagram;
-    -ms-flex-item-align: center;
-    align-self: center;
-    justify-self: right;
-    height: 2vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    font-size: 1rem;
-  }
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
 
-  .logoInstagram {
-    height: 1rem;
-  }
 
-  .whatsapp {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;
+}
+
+.whatsapp {
+    height: auto;
     grid-area: whatsapp;
-    -ms-flex-item-align: center;
-    align-self: center;
-    justify-self: left;
-    height: 2vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    font-size: 1rem;
-  }
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
 
-  .logoWhatsapp {
-    height: 1rem;
-  }
-
-  .email {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
+.email {
+    height: auto;
+    width: auto;
     grid-area: email;
-    -ms-flex-item-align: left;
-    align-self: left;
-    justify-self: left;
-    height: 2vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    font-size: 1rem;
-  }
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
 
-  .logoEmail {
-    height: 1rem;
-  }
-
-  .irArriba {
+.irArriba {
+    height: auto;
+    display: grid;
     text-align: center;
-    height: 2vh;
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
     grid-area: irArriba;
-    font: 1rem;
-  }
+}
 
-  .flechaArriba {
-    color: #edeeef;
-    text-decoration: none;
-    text-align: center;
-    height: 1.5rem;
-  }
 
-  .desarrolladoPor {
-    -ms-grid-row: 3;
-    -ms-grid-column: 3;
+
+.desarrolladoPor {
+    height: auto;
     grid-area: desarrolladoPor;
-    justify-self: right;
-    -ms-flex-item-align: right;
-    align-self: right;
-    font-size: 0.8vh;
-    height: 2vh;
-  }
+    align-self: flex-end;
+}
 
-  .desarrolladoPor a {
-    -ms-flex-line-pack: end;
-    align-content: end;
-    padding-left: 3vh;
-    -ms-flex-item-align: right;
-    -ms-grid-row-align: right;
-    align-self: right;
-  }
 
-  footer p {
+footer p {
     font-size: 1rem;
-    padding: 15px 2px 0px 0px;
-  }
-
-  .footer a {
-    text-decoration: none;
-    color: #edeeef;
-    text-align: left;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-
-  .footer a img {
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
+}
 
   /* ANIMACION FOOTER */
 
@@ -2326,6 +2300,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #0f2f56;
+    width: 100%;
   }
 
 
@@ -2393,19 +2368,43 @@
   .nosotrosBox {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
-    align-self: flex-start;
-    margin: 1rem;
-    padding: 2rem;
+    align-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     background-color: #edeeef;
-    height: 40%;
+    height: auto;
+    width: fit-content;
+    border-radius: 4px 4px 4px 4px;
+        div {
+            height: auto;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            margin: 1rem;
+                p {
+                    font-size: 2rem;
+                    padding: 00.5rem;
+                    width: auto;
+                    max-height: fit-content;
+                    min-height: 23vh;
+                }
 
-  }
+        }
+       
+
+}
 
   .fotosNos {
-    height: 24vh;
-    width: 31vw;
+    height: 30vh;
+    width: 28vw;
     padding: 0.5rem;
     border-radius: 8px;
     animation-name: fotosNos;

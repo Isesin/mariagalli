@@ -467,8 +467,9 @@ footer p {
     margin-top: 4rem;
     margin-bottom: 4rem;
     background-color: #edeeef;
-    height: auto;
     width: 70vw;
+    max-height: auto;
+    min-height: 50vh;
 
 
 }
