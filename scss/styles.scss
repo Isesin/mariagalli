@@ -139,7 +139,6 @@ header {
     align-content: center;
     width: 95%;
     margin:auto;
-    margin-bottom: 3rem;
     
 
 }
@@ -148,18 +147,23 @@ header {
 /* FOOTER */
 /* FOOTER */
 .footer {
-    height: 18vh;
+    height: 15vh;
     width: auto;
     display: grid;
     background-color: #0a2947;
     font-size: 1.6rem;
     margin: 1rem;
-    padding-top: 0.5rem;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     grid-template-areas: "instagram irArriba divisorFooter"
         " whatsapp whatsapp whatsapp"
         "email email desarrolladoPor";
+    justify-content: space-between;
+    align-content: space-between;
+        div {
+        text-align: center;
+        }
+
 
 }
 
@@ -185,7 +189,6 @@ header {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #edeeef;
-    text-align: right;
     padding: 0.5rem 1rem 0.5rem 1rem;
     display: flex;
 }
@@ -196,32 +199,37 @@ header {
 
 
 .instagram {
-    height: 5vh;
+    height: auto;
     grid-area: instagram;
-    align-self: end;
-    justify-self: left;
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
 
-    
 
 }
 
 .whatsapp {
-    height: 5vh;
+    height: auto;
     grid-area: whatsapp;
-    align-self: center;
-    justify-self: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .email {
-    height: 5vh;
+    height: auto;
+    width: auto;
     grid-area: email;
-    align-self: center;
-    justify-self: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .irArriba {
-    height: 5vh;
+    height: auto;
     display: grid;
     text-align: center;
     align-content: center;
@@ -233,10 +241,9 @@ header {
 
 
 .desarrolladoPor {
-    height: 4vh;
+    height: auto;
     grid-area: desarrolladoPor;
     align-self: flex-end;
-    justify-self: right;
 }
 
 
