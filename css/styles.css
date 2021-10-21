@@ -627,6 +627,11 @@ footer p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   background-color: #0f2f56;
 }
 
@@ -638,20 +643,20 @@ footer p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-item-align: center;
-      align-self: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   background-color: #edeeef;
-  height: 50vh;
+  height: auto;
   width: 70vw;
 }
 
@@ -661,20 +666,20 @@ footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-item-align: center;
-      align-self: center;
-  height: 40vh;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 45vh;
   width: 40vw;
 }
 
 .fotoServicios {
-  height: 35vh;
+  height: 32vh;
   width: 25vw;
   border-radius: 8px;
 }
@@ -687,21 +692,18 @@ footer p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 1rem;
-  padding-top: 1rem;
   background-color: #edeeef;
   border-radius: 0px 4px 4px 0px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-item-align: center;
-      align-self: center;
-  height: 40vh;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 45vh;
   width: 40vw;
-  margin: auto;
 }
 
 .servicios h3 {
@@ -727,25 +729,59 @@ footer p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  margin: auto;
-  padding: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: #edeeef;
-  height: 40%;
+  height: auto;
+  width: auto;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.nosotrosBox div {
+  height: auto;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 1rem;
+}
+
+.nosotrosBox div p {
+  font-size: 2rem;
+  padding: 00.5rem;
+  width: auto;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  min-height: 23vh;
 }
 
 .fotosNos {
   height: 35vh;
   width: 30vw;
   padding: 0.5rem;
-  margin: auto;
   display: block;
   border-radius: 8px;
   -webkit-animation-name: fotosNos;
@@ -756,12 +792,6 @@ footer p {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
-}
-
-.textoNos {
-  font-size: 2rem;
-  padding: 00.5rem;
-  display: block;
 }
 
 /* BREADCRUMBS */
