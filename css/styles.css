@@ -354,14 +354,8 @@ header {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
   grid-area: desarrolladoPor;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  justify-items: end;
-  -ms-flex-line-pack: end;
-      align-content: end;
-  -ms-flex-item-align: baseline;
-      align-self: baseline;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   -ms-grid-column-align: right;
       justify-self: right;
 }

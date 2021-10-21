@@ -235,10 +235,7 @@ header {
 .desarrolladoPor {
     height: 4vh;
     grid-area: desarrolladoPor;
-    justify-content: end;
-    justify-items: end;
-    align-content: end;
-    align-self: baseline;
+    align-self: flex-end;
     justify-self: right;
 }
 
