@@ -73,7 +73,7 @@ header {
 }
 
 .navegador {
-  width: 98vw;
+  width: 100%;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -2849,7 +2849,7 @@ footer p {
     background-color: #0a2947;
   }
   .navegador {
-    width: 98vw;
+    width: 100%;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
