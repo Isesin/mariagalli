@@ -20,7 +20,7 @@ header {
     align-self: flex-end;    
 }
 .logoMG {
-    padding-left: 2rem;
+    margin-left: 3rem;
 }
 
 .menuNavegador {
@@ -296,6 +296,11 @@ footer p {
 /* CONTACTANOS */
 /* CONTACTANOS */
 /* NUESTROS DATOS */
+
+.cuerpoContacto {
+    background-image: radial-gradient(#0f2f56, #edeeef , #0a2947 );
+  
+}
 .seccionContacto {
     height: fit-content;
     border-radius: 8px 8px 8px 8px;
@@ -307,6 +312,7 @@ footer p {
     align-content: center;
     margin: 2rem auto;
     background-color: #0a2947 ;
+    
 
 }
 
