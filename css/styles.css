@@ -12,7 +12,8 @@ html {
 }
 
 .cuerpo {
-  background-color: #edeeef;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0f2f56), to(#edeeef));
+  background-image: linear-gradient(to bottom, #0f2f56, #edeeef);
 }
 
 /* FUENTES */
