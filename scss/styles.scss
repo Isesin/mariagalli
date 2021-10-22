@@ -299,26 +299,30 @@ footer p {
 .seccionContacto {
     height: fit-content;
     border-radius: 8px 8px 8px 8px;
-    width: 97vw;
-    display: inline-flex;
+    width: 70%;
+    display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 2rem auto;
     background-color: #0a2947 ;
 
 }
 
+
 .nuestrosDatos {
     border-radius: 8px 8px 8px 8px;
     margin: 1rem;
-    width: 40vw;
+    height: fit-content;
+    width: 30vw;
     background-color: #0f2f56;
     color: #edeeef;
     font-size: 1.5rem;
     grid-area: nuestrosDatos;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     align-self: center;
 
@@ -326,21 +330,21 @@ footer p {
 
 .horariosContacto {
     padding: 1rem 2rem 1rem 2rem;  
-    height: 12vh;
-    width: 40vw;
+    height: auto;
+    width: 25vw;
     
 }
 
 .telefonoContacto {
     padding: 1rem 2rem 1rem 2rem;  
-    height: 12vh;
-    width: 40vw;
+    height: auto;
+    width: 25vw;
 }
 
 .emailContacto {
     padding: 1rem 2rem 1rem 2rem;  
-    height: 12vh;
-    width: 40vw;
+    height: auto;
+    width: 25vw;
 }
 
 .emailContacto a {
@@ -352,57 +356,76 @@ footer p {
 .formulario {
     border-radius: 8px 8px 8px 8px;
     padding: 1rem;
-    width: 40vw;
-    height: 60%;
+    width: auto;
+    height: auto;
     margin: 1rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #0f2f56;
     color: #edeeef;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-self: flex-start;
-    align-content: flex-start;
+    align-content: center;
 
 }
 
 .nombreConsulta {
-    grid-area: nombre;
-    padding: 0.5rem 2rem;
+    margin: 0.5rem 2rem;
+    height: auto;
+    width: auto;
     border-radius: 4px;
     font-size: 1.5rem;
-
+        input {
+            margin-top: 0.5rem;
+        }
 }
 
 .telefonoConsulta {
-    grid-area: telefono;
-    padding: 0.5rem 2rem;
+    margin: 0.5rem 2rem;
+    height: auto;
+    width: auto;
     border-radius: 4px;
     font-size: 1.5rem;
+    input {
+        margin-top: 0.5rem;
+    }
 }
 
 .emailConsulta {
-    grid-area: email;
-    padding: 0.5rem 2rem;    
+    margin: 0.5rem 2rem;
+    height: auto;
+    width: auto;   
     border-radius: 4px;
     font-size: 1.5rem;
+    input {
+        margin-top: 0.5rem;
+    }
 
 }
 
 .consulta {
-    grid-area: consulta;
-    padding: 0.5rem 2rem;
+    margin: 0.5rem 2rem;
+    height: auto;
+    width: auto;
     border-radius: 4px;
     font-size: 1.5rem;
-
+    textarea {
+        margin-top: 0.5rem;
+    }
 }
 
 .enviar {
     font-family: 'Montserrat', sans-serif;
-    grid-area: enviar;
-    padding: 0.5rem 2rem;
+    margin: 0.5rem 2rem;
+    height: auto;
+    width: auto;
     border-radius: 4px;
     font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-content: center;
 }
 
 .nombreConsulta label {
@@ -753,6 +776,6 @@ footer p {
 
 
 
-
+/*
 @import "mediaQ";
-
+*/
