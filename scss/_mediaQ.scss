@@ -1,47 +1,39 @@
 /* MEDIA QUERY MEDIA QUERY*/
 /* -360 */
-
-/* MEDIA QUERY MEDIA QUERY*/
-/* -360 */
 @media (max-width: 413px) {
   header {
     background-color: #0a2947;
-  }
+}
 
-  .navegador {
-    width: 98vw;
-    display: inline-flex;
+.navegador {
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    align-self: flex-start;
-  }
+    align-self: center;    
+}
 
-  .logoMG {
-    padding-left: 1rem;
 
-  }
-
-  .menuNavegador {
-    width: 40vw;
-    display: inline-flex;
+.menuNavegador {
+    width: 100%;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    align-self: center;
-    padding-left: 0.5rem;
-  }
+    align-items: flex-start;
+    align-self: flex-start;
+    margin-bottom: 0rem;
+    padding-left: 0rem;
+}
 
-  .opcionesNav {
+.opcionesNav {
     list-style: none;
-
     a {
-      font-size: 1.5rem;
-      text-decoration: none;
-      color: #edeeef;
-      padding-left: 0.3rem;
+        font-size: 1.4rem;
+        text-decoration: none;
+        color:#edeeef
     }
-  }
+}
 
 
 
@@ -95,6 +87,14 @@
     transform: translateY(-10px);
   }
 
+
+
+  /* MAPA */
+  .tituloMapa {
+    font-size: 1.5rem;
+
+  }
+
   /* FOOTER */
   .logosFooter {
     height: 4vh;
@@ -119,13 +119,11 @@
   }
 
   .instagram {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
     grid-area: instagram;
     -ms-flex-item-align: center;
     align-self: center;
     justify-self: right;
-    height: 4vh;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -137,14 +135,12 @@
   }
 
   .whatsapp {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
     -ms-grid-column-span: 3;
     grid-area: whatsapp;
     -ms-flex-item-align: center;
     align-self: center;
     justify-self: left;
-    height: 4vh;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -156,14 +152,12 @@
   }
 
   .email {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: email;
     -ms-flex-item-align: left;
     align-self: left;
     justify-self: left;
-    height: 4vh;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -176,44 +170,37 @@
 
   .irArriba {
     text-align: center;
-    height: 2vh;
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
+    height: auto;
     grid-area: irArriba;
-    font: 0.7rem;
   }
 
   .flechaArriba {
     color: #edeeef;
     text-decoration: none;
     text-align: center;
-    height: 1.2rem;
+    height: auto;
   }
+
+
 
   .desarrolladoPor {
-    -ms-grid-row: 3;
-    -ms-grid-column: 3;
+    height: auto;
     grid-area: desarrolladoPor;
-    justify-self: right;
-    -ms-flex-item-align: right;
-    align-self: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
     font-size: 0.8vh;
-    height: 2vh;
-  }
+    
+}
 
-  .desarrolladoPor a {
-    -ms-flex-line-pack: end;
-    align-content: end;
-    padding-left: 3vh;
-    -ms-flex-item-align: right;
-    -ms-grid-row-align: right;
-    align-self: right;
-  }
 
-  footer p {
+footer p {
     font-size: 1rem;
-    padding: 15px 2px 0px 0px;
-  }
+}
 
   .footer a {
     text-decoration: none;
@@ -273,14 +260,6 @@
 
   }
 
-  /* MAPA */
-  .tituloMapa {
-    font-size: 1.5rem;
-
-  }
-
-
-
   /* NOSOTROS */
   .serviciosBox {
     display: -webkit-box;
@@ -299,7 +278,7 @@
     margin: 1rem;
     padding: 0rem;
     background-color: #edeeef;
-    width: auto;
+    width: 80vw;
     height: auto;
   }
 
@@ -324,61 +303,77 @@
 
   .servicios {
     display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding: inherit;
-    background-color: #edeeef;
-    border-radius: 0px 4px 4px 0px;
-    height: auto ;
-    width: auto;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   padding: inherit;
+   background-color: #edeeef;
+   border-radius: 8px;
+   height: auto;
+   width: 80vw;
 
-  }
+   }
 
-  .servicios h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    text-align: center;
-    font-style: bold;
-  }
+   .servicios h3 {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 2.5rem;
+     text-align: center;
+     font-style: bold;
+   }
 
-  .listaServicios {
-    font-family: "Barlow";
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    height: auto;
-    width: 95vw;
-    text-decoration: none;
-  }
+   .listaServicios {
+     font-size: 1.3rem;
+     padding: 0.5rem;
+     height: auto;
+     width: 80vw;
+     text-decoration: none;
+   }
 
-  .listaServicios li {
-    padding: 0.5rem 0.5rem 0.5rem 0rem;
-    list-style: none;
-  }
+   .listaServicios li {
+     padding: 0.5rem 1rem 0.5rem 1rem;
+     list-style: none;
+   }
 
-  .nosotrosBox {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin: 1rem;
-    padding: 2rem;
-    background-color: #edeeef;
-    height: 40%;
-  }
+   .nosotrosBox {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     align-content: center;
+     margin-left: 2rem;
+     margin-right: 2rem;
+     margin-bottom: 1rem;
+     padding: unset;
+     background-color: #edeeef;
+     height: auto;
+     width: fit-content;
+     border-radius: 4px 4px 4px 4px;
 
+     div {
+       height: auto;
+       width: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+       align-content: center;
+       margin: 1rem;
+
+       p {
+         font-size: 1.3rem;
+         padding: 00.5rem;
+         width: auto;
+         max-height: fit-content;
+         min-height: 23vh;
+       }
+
+     }
+
+
+   }
   .fotosNos {
     height: 30vh;
     width: 80vw;
@@ -436,7 +431,7 @@
     height: 9vh;
     width: 80vw;
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
     align-self: auto;
@@ -446,7 +441,7 @@
     height: 5vh;
     width: 80vw;
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
     align-self: auto;
@@ -456,7 +451,7 @@
     height: 5vh;
     width: 80vw;
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
     align-self: auto;
@@ -468,46 +463,50 @@
     width: 80vw;
     height: 80vh;
     margin: 1rem;
-    font-family: 'Montserrat', sans-serif;
     background-color: #0f2f56;
     color: #edeeef;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-self: flex-start;
-    align-content: flex-start;
+    align-self: center;
+    align-content: center;
 
   }
 
   .nombreConsulta {
     grid-area: nombre;
-    padding: 0.3rem 1rem;
+    margin: 0rem;
     border-radius: 4px;
-    font-size: 1rem;
-
+      label {
+        font-size: 1.5rem;
+      }
   }
 
   .telefonoConsulta {
     grid-area: telefono;
-    padding: 0.3rem 1rem;
+    margin: 0rem;
     border-radius: 4px;
-    font-size: 1rem;
+      label {
+        font-size: 1.5rem;
+      }
   }
 
   .emailConsulta {
     grid-area: email;
-    padding: 0.3rem 1rem;
+    margin: 0rem;
     border-radius: 4px;
-    font-size: 1rem;
-
+      label {
+        font-size: 1.5rem;
+      }
   }
 
   .consulta {
     grid-area: consulta;
-    padding: 0.3rem 1rem;
+    margin: 0rem;
     border-radius: 4px;
-    font-size: 1rem;
-    width: 60vw;
+      label {
+        font-size: 1.5rem;
+      }
   }
 
   .consulta textarea {
@@ -522,21 +521,7 @@
     font-size: 1rem;
   }
 
-  .nombreConsulta label {
-    font-size: 1rem;
-  }
 
-  .telefonoConsulta label {
-    font-size: 1rem;
-  }
-
-  .emailConsulta {
-    font-size: 1rem;
-  }
-
-  .consulta label {
-    font-size: 1rem;
-  }
 
   /* Animaciones Formulario */
 
@@ -560,67 +545,150 @@
   .enviar :hover {
     transform: scale(1.1, 1.1);
   }
-  /* FORMULARIO PROPIEDADES */
-  .propiedades {
-    height: 90vh;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-  }
+/* BREADCRUMBS */
+.breadcrumb {
+  padding: 1rem 1.3rem;
+  list-style: none;
+  background-color: #edeeef;
+}
+
+.breadcrumb li {
+  display: inline;
+  font-size: 1.3rem;
+}
+
+.breadcrumb li+li:before {
+  padding: 0.3rem;
+  color: #0a2947;
+  content: "/\00a0";
+}
+
+.breadcrumb li a {
+  color: #0a2947;
+  text-decoration: none;
+  transition: transform 1s;
+}
+
+/* ANIMACION */
 
 
-  .formularioPropiedades {
-  padding-left: 1.5rem;
-  padding-top: 8rem;
+.breadcrumb li:hover {
+  transform: scale(1.05, 1.05);
+}
+
+/* ALQUILERES */ 
+.seccionAlquileres {
+  padding: 3rem;
+  background-color: #0f2f56;
+}
+
+/* VENTAS */
+
+
+.seccionVentas {
+  padding: 3rem;
+  background-color: #0f2f56;
+
+}
+.titulo-producciones {
+  font-size: 2rem;
+}
+
+.texto-producciones {
+  font-size: 1.5rem;
+}
+
+.botonVisitar {
+  background-color: #0a2947;
+  border: #0f2f56;
+  font-size: 1.2rem;
+}
+
+
+/* VISTA PROPIEDADES */ 
+.propiedades {
+  background-color: #0a2947;
+  border-radius: 8px;
+  margin: 1rem auto 1rem auto;
+  padding: 1rem !important;
+  height: auto;
+  width: 80vw;
+}
+.descripcionPropiedades {
+  font-size: 1.3rem;
+  background-color: #0f2f56;
+  color: #edeeef;
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
-  max-height: 100%;
-  height: 45vh;
-  width: auto;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-content: center;
   align-items: flex-start;
-
+  ul {
+      margin-left: 2rem;
+      list-style:circle;
+      height: auto;
+       width: 60vw;
+      li {
+          padding: 0.5rem 0rem;
+      }
   }
+   p {
+       margin: 0;
+       padding: 1rem;
+       height: auto;
+       width: 80vw;
 
-  .nombreConsultaPropiedades {
+   }
+}
+strong {
+  font-weight:700 ;
+}
+
+
+
+/* FORMULARIO PROPIEDADES */ 
+.formularioPropiedades {
+  padding: 1rem;
+  display: flex; 
+  flex-direction: column;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  background-color: #0f2f56;
+  border-radius: 8px;
+  margin: 1rem auto ;
+  
+}
+
+.nombreConsultaPropiedades {
   font-family: 'Montserrat', sans-serif;
   color: #edeeef;
-  font-size: 1.5rem;
-  }
-
-  .telefonoConsultaPropiedades {
+  font-size: 1.3rem;
+}
+.telefonoConsultaPropiedades {
   font-family: 'Montserrat', sans-serif;
   color: #edeeef;
-  font-size: 1.5rem;
-  }
+  font-size: 1.3rem;
+}
 
-  .consultaPropiedades {
+.consultaPropiedades {
   font-family: 'Montserrat', sans-serif;
   color: #edeeef;
-  font-size: 1.5rem;
-  }
-  .consultaPropiedades textarea {
-    width: 80vw;
-  }
-
-  .enviarPropiedades {
+  font-size: 1.3rem;
+  width: 70vw;
+}
+.enviarPropiedades {
   font-family: 'Montserrat', sans-serif;
   color: #edeeef;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   align-self: center;
-  }
-  .cajaAcordeon {
-    height: 50vh;
-  }
-
-
-
-
-
-
-
 }
 
 
@@ -738,8 +806,6 @@
   }
 
   .instagram {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
     grid-area: instagram;
     -ms-flex-item-align: center;
     align-self: center;
@@ -756,8 +822,6 @@
   }
 
   .whatsapp {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
     -ms-grid-column-span: 3;
     grid-area: whatsapp;
     -ms-flex-item-align: center;
@@ -775,8 +839,6 @@
   }
 
   .email {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: email;
     -ms-flex-item-align: left;
@@ -796,8 +858,6 @@
   .irArriba {
     text-align: center;
     height: 2vh;
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
     grid-area: irArriba;
     font: 0.7rem;
   }
@@ -810,8 +870,6 @@
   }
 
   .desarrolladoPor {
-    -ms-grid-row: 3;
-    -ms-grid-column: 3;
     grid-area: desarrolladoPor;
     justify-self: right;
     -ms-flex-item-align: right;
@@ -1348,8 +1406,6 @@
   }
 
   .instagram {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
     grid-area: instagram;
     -ms-flex-item-align: center;
     align-self: center;
@@ -1366,8 +1422,6 @@
   }
 
   .whatsapp {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
     -ms-grid-column-span: 3;
     grid-area: whatsapp;
     -ms-flex-item-align: center;
@@ -1385,8 +1439,6 @@
   }
 
   .email {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: email;
     -ms-flex-item-align: left;
@@ -1406,8 +1458,6 @@
   .irArriba {
     text-align: center;
     height: 2vh;
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
     grid-area: irArriba;
     font: 0.7rem;
   }
@@ -1420,8 +1470,6 @@
   }
 
   .desarrolladoPor {
-    -ms-grid-row: 3;
-    -ms-grid-column: 3;
     grid-area: desarrolladoPor;
     justify-self: right;
     -ms-flex-item-align: right;
@@ -2004,40 +2052,40 @@
         }
 
 
-}
+  }
 
-.logoInstagram {
+  .logoInstagram {
     padding-right: 0.5rem;
     font-size: 2rem;
 
-}
+  }
 
-.logoWhatsapp {
+  .logoWhatsapp {
     padding-right: 0.5rem;
     font-size: 2rem;
 
-}
+  }
 
-.logoEmail {
+  .logoEmail {
     padding-right: 0.5rem;
     font-size: 2rem;
 
-}
+  }
 
-.footer a {
+  .footer a {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #edeeef;
     padding: 0.5rem 1rem 0.5rem 1rem;
     display: flex;
-}
-.footer a img {
+  }
+  .footer a img {
     align-self: center;
-}
+  }
 
 
 
-.instagram {
+  .instagram {
     height: auto;
     grid-area: instagram;
     display: flex;
@@ -2046,18 +2094,18 @@
     align-items: flex-end;
 
 
-}
+  }
 
-.whatsapp {
+  .whatsapp {
     height: auto;
     grid-area: whatsapp;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
-}
+  }
 
-.email {
+  .email {
     height: auto;
     width: auto;
     grid-area: email;
@@ -2065,9 +2113,9 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
-}
+  }
 
-.irArriba {
+  .irArriba {
     height: auto;
     display: grid;
     text-align: center;
@@ -2075,20 +2123,20 @@
     align-items: center;
     justify-items: center;
     grid-area: irArriba;
-}
+  }
 
 
 
-.desarrolladoPor {
+  .desarrolladoPor {
     height: auto;
     grid-area: desarrolladoPor;
     align-self: flex-end;
-}
+  }
 
 
-footer p {
+  footer p {
     font-size: 1rem;
-}
+  }
 
   /* ANIMACION FOOTER */
 
@@ -2400,8 +2448,8 @@ footer p {
         }
        
 
-}
 
+  }
   .fotosNos {
     height: 30vh;
     width: 28vw;
@@ -2504,7 +2552,5 @@ footer p {
     font-size: 1.5rem;
     align-self: center;
   }
-
-
-
+}
 }
