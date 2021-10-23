@@ -681,6 +681,14 @@ footer p {
     width: 80vw;
     height: auto;
     margin: auto;
+    border-radius: 8px;
+    ul {
+        margin-left: 2rem;
+        list-style:circle;
+        li {
+            padding: 0.5rem 0rem;
+        }
+    }
      p {
          margin: 0;
          padding: 1rem;

@@ -912,6 +912,16 @@ footer p {
   width: 80vw;
   height: auto;
   margin: auto;
+  border-radius: 8px;
+}
+
+.descripcionPropiedades ul {
+  margin-left: 2rem;
+  list-style: circle;
+}
+
+.descripcionPropiedades ul li {
+  padding: 0.5rem 0rem;
 }
 
 .descripcionPropiedades p {
