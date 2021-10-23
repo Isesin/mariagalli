@@ -675,12 +675,17 @@ footer p {
     width: 80vw;
 }
 .descripcionPropiedades {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     background-color: #0f2f56;
     color: #edeeef;
     width: 80vw;
     height: auto;
     margin: auto;
+     p {
+         margin: 0;
+         padding: 1rem;
+
+     }
 }
 
 

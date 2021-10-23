@@ -906,12 +906,17 @@ footer p {
 }
 
 .descripcionPropiedades {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   background-color: #0f2f56;
   color: #edeeef;
   width: 80vw;
   height: auto;
   margin: auto;
+}
+
+.descripcionPropiedades p {
+  margin: 0;
+  padding: 1rem;
 }
 
 /* FORMULARIO PROPIEDADES */
