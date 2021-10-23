@@ -246,7 +246,7 @@ header {
 /* FOOTER */
 /* FOOTER */
 .footer {
-  height: 15vh;
+  height: 18vh;
   width: auto;
   display: -ms-grid;
   display: grid;
@@ -269,6 +269,16 @@ header {
   text-align: center;
 }
 
+.footer a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #edeeef;
+  padding: 0.5rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .logoInstagram {
   padding-right: 0.5rem;
   font-size: 2rem;
@@ -282,16 +292,6 @@ header {
 .logoEmail {
   padding-right: 0.5rem;
   font-size: 2rem;
-}
-
-.footer a {
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  color: #edeeef;
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .footer a img {
@@ -361,6 +361,7 @@ header {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  padding-bottom: 0.5rem;
 }
 
 .irArriba {
@@ -384,8 +385,22 @@ header {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
   grid-area: desarrolladoPor;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
 }
 
 footer p {
