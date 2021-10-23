@@ -913,11 +913,28 @@ footer p {
   height: auto;
   margin: auto;
   border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .descripcionPropiedades ul {
   margin-left: 2rem;
   list-style: circle;
+  height: auto;
+  width: 40vw;
 }
 
 .descripcionPropiedades ul li {
@@ -927,6 +944,12 @@ footer p {
 .descripcionPropiedades p {
   margin: 0;
   padding: 1rem;
+  height: auto;
+  width: 40vw;
+}
+
+strong {
+  font-weight: 700;
 }
 
 /* FORMULARIO PROPIEDADES */

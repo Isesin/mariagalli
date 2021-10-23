@@ -682,9 +682,16 @@ footer p {
     height: auto;
     margin: auto;
     border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: flex-start;
     ul {
         margin-left: 2rem;
         list-style:circle;
+        height: auto;
+         width: 40vw;
         li {
             padding: 0.5rem 0rem;
         }
@@ -692,8 +699,13 @@ footer p {
      p {
          margin: 0;
          padding: 1rem;
+         height: auto;
+         width: 40vw;
 
      }
+}
+strong {
+    font-weight:700 ;
 }
 
 
