@@ -498,7 +498,7 @@ footer p {
     background-color: #edeeef;
     width: 70vw;
     max-height: auto;
-    min-height: 50vh;
+    min-height: 80vh;
 
 
 }
@@ -658,36 +658,31 @@ footer p {
     font-size: 1.5rem;
 }
 
-
+.botonVisitar {
+    background-color: #0a2947;
+    border: #0f2f56;
+    font-size: 1.2rem;
+}
 
 
 /* VISTA PROPIEDADES */ 
 .propiedades {
     background-color: #0a2947;
     border-radius: 8px;
-    margin-top: 5px;
-    margin: 1rem auto 0rem auto;
-    height: 75vh;
-    width: 95vw;
-    
+    margin: 1rem auto 1rem auto;
+    padding: 1rem !important;
+    height: auto;
+    width: 80vw;
+}
+.descripcionPropiedades {
+    font-size: 1.5rem;
+    background-color: #0f2f56;
+    color: #edeeef;
+    width: 80vw;
+    height: auto;
+    margin: auto;
+}
 
-}
-.cajaAcordeon {
-    height: 50vh;
-    background-color: white;
-}
-
-.acordeon {
-    display: grid;
-    padding: 3rem 1.25rem;
-    font-size: 1.2rem;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 40vh;
-}
-.barrio {
-    flex-direction: 3 ;
-}
 
 
 /* FORMULARIO PROPIEDADES */ 
@@ -696,12 +691,14 @@ footer p {
     display: flex; 
     flex-direction: column;
     max-height: 100%;
-    height: 70vh;
-    width: 90;
+    height: 60vh;
+    width: auto;
     justify-content: space-around;
     align-items: flex-start;
+    align-content: center;
     background-color: #0f2f56;
     border-radius: 8px;
+    margin: 1rem auto ;
     
 }
 
