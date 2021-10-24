@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <title>Maria Galli - 404</title>
   <style>
+    * {
+      margin: 0;
+      padding:0;
+    }
     header {
       background-color: #0a2947;
     }
@@ -35,7 +39,7 @@
     }
 
     .menuNavegador {
-      width: 50vw;
+      width: 70vw;
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
       display: inline-flex;
@@ -51,15 +55,17 @@
       align-items: flex-end;
       -ms-flex-item-align: end;
       align-self: flex-end;
-      margin-bottom: 0rem !important;
     }
 
     .opcionesNav {
       list-style: none;
+      font-family: 'Barlow', sans-serif;
+      font-weight: 700;
+      
     }
 
     .opcionesNav a {
-      font-size: 2.3rem;
+      font-size: 1rem;
       text-decoration: none;
       color: #edeeef;
     }
@@ -140,9 +146,40 @@
     .sectionError {
       background-color: #0f2f56;
     }
+    .breadcrumb {
+  padding: 1rem 1.5rem;
+  list-style: none;
+  background-color: #edeeef;
+}
+
+.breadcrumb li {
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.breadcrumb li + li:before {
+  padding: 0.5rem;
+  color: #0a2947;
+  content: "/\00a0";
+}
+
+.breadcrumb li a {
+  color: #0a2947;
+  text-decoration: none;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+/* ANIMACION */
+.breadcrumb li:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+}
 
     .error404 {
-      padding: 2rem;
+      padding: 1rem;
       background-color: #0f2f56;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -158,15 +195,17 @@
       align-self: center;
       -ms-flex-line-pack: center;
       align-content: center;
+      margin:auto;
     }
 
     .error404 h2 {
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: #edeeef;
+      padding-left: 2rem;
     }
 
     .error404 p {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       color: #edeeef;
     }
 
@@ -176,11 +215,11 @@
       -ms-grid-row: 1;
       -ms-grid-column: 1;
       grid-area: tituloMapa;
-      font-size: 2.5rem;
+      font-size: 1.5rem;
       text-align: LEFT;
       color: #edeeef;
       padding: 1rem;
-      margin-left: 1rem;
+      margin-left: 2rem;
     }
 
     .mapa {
@@ -252,6 +291,7 @@
       justify-content: space-between;
       -ms-flex-line-pack: justify;
       align-content: space-between;
+      border-radius: 4px;
     }
 
     .footer div {
@@ -266,6 +306,7 @@
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      font-size: 1rem;
     }
 
     .logoInstagram {
