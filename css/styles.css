@@ -454,10 +454,6 @@ footer p {
 /* CONTACTANOS */
 /* CONTACTANOS */
 /* NUESTROS DATOS */
-.cuerpoContacto {
-  background-image: radial-gradient(#0f2f56, #edeeef, #0a2947);
-}
-
 .seccionContacto {
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -1522,7 +1518,7 @@ strong {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    height: 75vh;
+    height: 95vh;
     width: 95vw;
     background-color: #0f2f56;
     -webkit-box-pack: justify;
@@ -3322,10 +3318,10 @@ strong {
         -ms-grid-row-align: center;
         align-self: center;
   }
-  /* 768  a 1280 */
 }
 
-@media only screen and (max-width: 768px) and (min-width: 554px) and (max-width: 1280px) and (min-width: 769px) {
+/* 768  a 1280 */
+@media only screen and (max-width: 1366px) and (min-width: 1024px) {
   /* HEADER */
   header {
     background-color: #0a2947;
@@ -3480,7 +3476,7 @@ strong {
   /* FOOTER */
   /* FOOTER */
   .footer {
-    height: 15vh;
+    height: 9vh;
     width: auto;
     display: -ms-grid;
     display: grid;
@@ -3718,6 +3714,9 @@ strong {
     color: #edeeef;
     text-decoration: none;
   }
+  .cuerpoContacto {
+    background-image: none;
+  }
   /* FORMULARIO */
   .formulario {
     border-radius: 8px 8px 8px 8px;
@@ -3843,10 +3842,13 @@ strong {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin: 1rem;
     padding: 2rem;
     background-color: #edeeef;
-    height: 40%;
+    width: 70vw;
+    min-height: 45vh;
   }
   .fotoBox {
     border-radius: 4px 0px 0px 4px;
@@ -3875,6 +3877,7 @@ strong {
     background-color: #edeeef;
     border-radius: 0px 4px 4px 0px;
     height: 55%;
+    width: 70vw;
   }
   .servicios h3 {
     font-size: 3rem;
@@ -4012,7 +4015,7 @@ strong {
         -ms-flex-direction: column;
             flex-direction: column;
     max-height: 100%;
-    height: 45vh;
+    height: auto;
     width: auto;
     -ms-flex-pack: distribute;
         justify-content: space-around;
