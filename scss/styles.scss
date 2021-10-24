@@ -11,13 +11,15 @@
 header {
     background-color: #0a2947;
 }
+
 .navegador {
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
     align-items: flex-end;
-    align-self: flex-end;    
+    align-self: flex-end;
 }
+
 .logoMG {
     margin-left: 3rem;
 }
@@ -35,10 +37,11 @@ header {
 
 .opcionesNav {
     list-style: none;
+
     a {
         font-size: 2.3rem;
         text-decoration: none;
-        color:#edeeef
+        color: #edeeef
     }
 }
 
@@ -50,7 +53,7 @@ header {
 /* ANIMACION MENU */
 .inicio {
     transition: transform 1.3s;
-    
+
 }
 
 .inicio:hover {
@@ -105,7 +108,7 @@ header {
     display: grid flex;
     grid-template-rows: 1fr 4fr 2fr;
     grid-template-areas: "tituloMapa plano";
-    margin:auto;
+    margin: auto;
 
 }
 
@@ -127,9 +130,10 @@ header {
     grid-area: plano;
     height: 55rem;
     width: 98%;
-    margin:auto;
+    margin: auto;
     margin-bottom: 3rem;
 }
+
 .iframeMapa {
     display: block;
     justify-content: space-evenly;
@@ -137,8 +141,8 @@ header {
     align-self: center;
     align-content: center;
     width: 95%;
-    margin:auto;
-    
+    margin: auto;
+
 
 }
 
@@ -159,16 +163,18 @@ header {
         "email email desarrolladoPor";
     justify-content: space-between;
     align-content: space-between;
-        div {
+
+    div {
         text-align: center;
-        }
-        a {
-            font-family: 'Montserrat', sans-serif;
-            text-decoration: none;
-            color: #edeeef;
-            padding: 0.5rem 1rem 0rem 1rem;
-            display: flex;
-        }
+    }
+
+    a {
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        color: #edeeef;
+        padding: 0.5rem 1rem 0rem 1rem;
+        display: flex;
+    }
 
 
 }
@@ -251,7 +257,7 @@ header {
     align-content: flex-end;
     margin-bottom: 0rem;
     padding-bottom: 0rem;
-    
+
 }
 
 
@@ -263,22 +269,22 @@ footer p {
 
 .instagram a {
     transition: 1s;
-    
+
 }
 
 .instagram a:hover {
     transform: scale(1.1, 1.1) translateX(15px);
-        color:violet;
-    
+    color: violet;
+
 }
 
-.whatsapp a{
+.whatsapp a {
     transition: 1s;
 }
 
 .whatsapp a:hover {
     transform: scale(1.1, 1.1) translateX(15px);
-    color:green;
+    color: green;
 }
 
 .email a {
@@ -287,18 +293,19 @@ footer p {
 
 .email a:hover {
     transform: scale(1.1, 1.1) translateX(15px);
-    color:red;
+    color: red;
 
 }
+
 .irArriba a svg {
     transition: 1s;
-    
+
 }
 
 .irArriba a svg:hover {
-    transform: scale(2 , 2);
-        
-    
+    transform: scale(2, 2);
+
+
 }
 
 /* CONTACTANOS */
@@ -316,8 +323,8 @@ footer p {
     align-items: center;
     align-content: center;
     margin: 2rem auto;
-    background-color: #0a2947 ;
-    
+    background-color: #0a2947;
+
 
 }
 
@@ -340,20 +347,20 @@ footer p {
 }
 
 .horariosContacto {
-    padding: 1rem 2rem 1rem 2rem;  
+    padding: 1rem 2rem 1rem 2rem;
     height: auto;
     width: 25vw;
-    
+
 }
 
 .telefonoContacto {
-    padding: 1rem 2rem 1rem 2rem;  
+    padding: 1rem 2rem 1rem 2rem;
     height: auto;
     width: 25vw;
 }
 
 .emailContacto {
-    padding: 1rem 2rem 1rem 2rem;  
+    padding: 1rem 2rem 1rem 2rem;
     height: auto;
     width: 25vw;
 }
@@ -387,9 +394,10 @@ footer p {
     width: auto;
     border-radius: 4px;
     font-size: 1.5rem;
-        input {
-            margin-top: 0.5rem;
-        }
+
+    input {
+        margin-top: 0.5rem;
+    }
 }
 
 .telefonoConsulta {
@@ -398,6 +406,7 @@ footer p {
     width: auto;
     border-radius: 4px;
     font-size: 1.5rem;
+
     input {
         margin-top: 0.5rem;
     }
@@ -406,9 +415,10 @@ footer p {
 .emailConsulta {
     margin: 0.5rem 2rem;
     height: auto;
-    width: auto;   
+    width: auto;
     border-radius: 4px;
     font-size: 1.5rem;
+
     input {
         margin-top: 0.5rem;
     }
@@ -421,6 +431,7 @@ footer p {
     width: auto;
     border-radius: 4px;
     font-size: 1.5rem;
+
     textarea {
         margin-top: 0.5rem;
     }
@@ -455,21 +466,25 @@ footer p {
     font-size: 1.7rem;
 }
 
-/* Animaciones Formulario */ 
+/* Animaciones Formulario */
 
 
 .nombreConsulta :hover {
     transform: scale(1.1, 1.1);
 }
+
 .telefonoConsulta :hover {
     transform: scale(1.1, 1.1);
 }
+
 .emailConsulta :hover {
-    transform: scale(1.1, 1.1) ;
+    transform: scale(1.1, 1.1);
 }
+
 .consulta :hover {
     transform: scale(1.1, 1.1) translateY(5px);
 }
+
 .enviar :hover {
     transform: scale(1.1, 1.1);
 }
@@ -483,10 +498,10 @@ footer p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items:center ;
-    align-content: center ;
+    align-items: center;
+    align-content: center;
     background-color: #0f2f56;
-    
+
 }
 
 
@@ -537,12 +552,12 @@ footer p {
     height: 45vh;
     width: 40vw;
 
-    
+
     h3 {
         font-size: 2.5rem;
         text-align: center;
         font-style: bold;
-    
+
     }
 
 }
@@ -550,6 +565,7 @@ footer p {
 
 .listaServicios {
     font-size: 1.7rem;
+
     li {
         padding: 2rem 2rem 2rem 0rem;
     }
@@ -573,25 +589,27 @@ footer p {
     height: auto;
     width: fit-content;
     border-radius: 4px 4px 4px 4px;
-        div {
-            height: auto;
-            width: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            align-content: center;
-            margin: 1rem;
-                p {
-                    font-size: 2rem;
-                    padding: 00.5rem;
-                    width: auto;
-                    max-height: fit-content;
-                    min-height: 23vh;
-                }
 
+    div {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        margin: 1rem;
+
+        p {
+            font-size: 2rem;
+            padding: 00.5rem;
+            width: auto;
+            max-height: fit-content;
+            min-height: 23vh;
         }
-       
+
+    }
+
 
 }
 
@@ -641,7 +659,7 @@ footer p {
     transform: scale(1.05, 1.05);
 }
 
-/* ALQUILERES */ 
+/* ALQUILERES */
 .seccionAlquileres {
     padding: 3rem;
     background-color: #0f2f56;
@@ -655,6 +673,7 @@ footer p {
     background-color: #0f2f56;
 
 }
+
 .titulo-producciones {
     font-size: 2rem;
 }
@@ -670,7 +689,7 @@ footer p {
 }
 
 
-/* VISTA PROPIEDADES */ 
+/* VISTA PROPIEDADES */
 .propiedades {
     background-color: #0a2947;
     border-radius: 8px;
@@ -679,6 +698,7 @@ footer p {
     height: auto;
     width: 80vw;
 }
+
 .descripcionPropiedades {
     font-size: 1.7rem;
     background-color: #0f2f56;
@@ -692,33 +712,37 @@ footer p {
     justify-content: space-evenly;
     align-content: center;
     align-items: flex-start;
+
     ul {
         margin-left: 2rem;
-        list-style:circle;
+        list-style: circle;
         height: auto;
-         width: 40vw;
+        width: 40vw;
+
         li {
             padding: 0.5rem 0rem;
         }
     }
-     p {
-         margin: 0;
-         padding: 1rem;
-         height: auto;
-         width: 40vw;
 
-     }
+    p {
+        margin: 0;
+        padding: 1rem;
+        height: auto;
+        width: 40vw;
+
+    }
 }
+
 strong {
-    font-weight:700 ;
+    font-weight: 700;
 }
 
 
 
-/* FORMULARIO PROPIEDADES */ 
+/* FORMULARIO PROPIEDADES */
 .formularioPropiedades {
     padding: 0rem 2rem 1rem 2rem;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     max-height: 100%;
     height: 45vh;
@@ -728,8 +752,8 @@ strong {
     align-content: center;
     background-color: #0f2f56;
     border-radius: 8px;
-    margin: 0rem auto ;
-    
+    margin: 0rem auto;
+
 }
 
 .nombreConsultaPropiedades {
@@ -737,16 +761,19 @@ strong {
     color: #edeeef;
     font-size: 1.4rem;
 }
+
 .telefonoConsultaPropiedades {
     font-family: 'Montserrat', sans-serif;
     color: #edeeef;
     font-size: 1.4rem;
 }
+
 .consultaPropiedades {
     font-family: 'Montserrat', sans-serif;
     color: #edeeef;
     font-size: 1.4rem;
 }
+
 .enviarPropiedades {
     font-family: 'Montserrat', sans-serif;
     color: #edeeef;
@@ -754,7 +781,7 @@ strong {
     align-self: center;
 }
 
-/* ERROR 404 */ 
+/* ERROR 404 */
 
 .sectionError {
     background-color: #0f2f56;
@@ -768,10 +795,12 @@ strong {
     justify-content: center;
     align-self: center;
     align-content: center;
+
     h2 {
         font-size: 2rem;
         color: #edeeef;
     }
+
     p {
         font-size: 1.6rem;
         color: #edeeef;
@@ -811,4 +840,3 @@ strong {
 
 
 @import "mediaQ";
-

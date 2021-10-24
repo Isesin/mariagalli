@@ -3,19 +3,19 @@
 @media (max-width: 413px) {
   header {
     background-color: #0a2947;
-}
+  }
 
-.navegador {
+  .navegador {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    align-self: center;    
-}
+    align-self: center;
+  }
 
 
-.menuNavegador {
+  .menuNavegador {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -24,16 +24,17 @@
     align-self: flex-start;
     margin-bottom: 0rem;
     padding-left: 0rem;
-}
+  }
 
-.opcionesNav {
+  .opcionesNav {
     list-style: none;
+
     a {
-        font-size: 1.4rem;
-        text-decoration: none;
-        color:#edeeef
+      font-size: 1.4rem;
+      text-decoration: none;
+      color: #edeeef
     }
-}
+  }
 
 
 
@@ -194,13 +195,13 @@
     margin-bottom: 0rem;
     padding-bottom: 0rem;
     font-size: 0.8vh;
-    
-}
+
+  }
 
 
-footer p {
+  footer p {
     font-size: 1rem;
-}
+  }
 
   .footer a {
     text-decoration: none;
@@ -303,77 +304,78 @@ footer p {
 
   .servicios {
     display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-orient: vertical;
-   -webkit-box-direction: normal;
-   -ms-flex-direction: column;
-   flex-direction: column;
-   padding: inherit;
-   background-color: #edeeef;
-   border-radius: 8px;
-   height: auto;
-   width: 80vw;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: inherit;
+    background-color: #edeeef;
+    border-radius: 8px;
+    height: auto;
+    width: 80vw;
 
-   }
+  }
 
-   .servicios h3 {
-     font-family: 'Montserrat', sans-serif;
-     font-size: 2.5rem;
-     text-align: center;
-     font-style: bold;
-   }
+  .servicios h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: bold;
+  }
 
-   .listaServicios {
-     font-size: 1.3rem;
-     padding: 0.5rem;
-     height: auto;
-     width: 80vw;
-     text-decoration: none;
-   }
+  .listaServicios {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    height: auto;
+    width: 80vw;
+    text-decoration: none;
+  }
 
-   .listaServicios li {
-     padding: 0.5rem 1rem 0.5rem 1rem;
-     list-style: none;
-   }
+  .listaServicios li {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    list-style: none;
+  }
 
-   .nosotrosBox {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: flex-start;
-     align-content: center;
-     margin-left: 2rem;
-     margin-right: 2rem;
-     margin-bottom: 1rem;
-     padding: unset;
-     background-color: #edeeef;
-     height: auto;
-     width: fit-content;
-     border-radius: 4px 4px 4px 4px;
+  .nosotrosBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    padding: unset;
+    background-color: #edeeef;
+    height: auto;
+    width: fit-content;
+    border-radius: 4px 4px 4px 4px;
 
-     div {
-       height: auto;
-       width: auto;
-       display: flex;
-       flex-direction: column;
-       justify-content: space-around;
-       align-items: center;
-       align-content: center;
-       margin: 1rem;
+    div {
+      height: auto;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      margin: 1rem;
 
-       p {
-         font-size: 1.3rem;
-         padding: 00.5rem;
-         width: auto;
-         max-height: fit-content;
-         min-height: 12vh;
-       }
+      p {
+        font-size: 1.3rem;
+        padding: 00.5rem;
+        width: auto;
+        max-height: fit-content;
+        min-height: 12vh;
+      }
 
-     }
+    }
 
 
-   }
+  }
+
   .fotosNos {
     height: 30vh;
     width: 80vw;
@@ -425,284 +427,284 @@ footer p {
     align-self: center;
     align-content: center;
 
-    }
+  }
 
-    .horariosContacto {
-      height: 9vh;
-      width: 80vw;
-      padding: 0.5rem;
-      font-size: 1.5rem;
-      -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-    }
+  .horariosContacto {
+    height: 9vh;
+    width: 80vw;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
 
-    .telefonoContacto {
-      height: 5vh;
-      width: 80vw;
-      padding: 0.5rem;
-      font-size: 1.5rem;
-      -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-    }
+  .telefonoContacto {
+    height: 5vh;
+    width: 80vw;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
 
-    .emailContacto {
-      height: 5vh;
-      width: 80vw;
-      padding: 0.5rem;
-      font-size: 1.5rem;
-      -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-    }
+  .emailContacto {
+    height: 5vh;
+    width: 80vw;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
 
-    .formulario {
-      border-radius: 8px 8px 8px 8px;
-      padding: 0.5rem;
-      width: 80vw;
-      height: 80vh;
-      margin: 1rem;
-      background-color: #0f2f56;
-      color: #edeeef;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-self: center;
-      align-content: center;
+  .formulario {
+    border-radius: 8px 8px 8px 8px;
+    padding: 0.5rem;
+    width: 80vw;
+    height: 80vh;
+    margin: 1rem;
+    background-color: #0f2f56;
+    color: #edeeef;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    align-content: center;
 
-    }
+  }
 
-    .nombreConsulta {
-      grid-area: nombre;
-      margin: 0rem;
-      border-radius: 4px;
+  .nombreConsulta {
+    grid-area: nombre;
+    margin: 0rem;
+    border-radius: 4px;
 
-      label {
-        font-size: 1.5rem;
-      }
-    }
-
-    .telefonoConsulta {
-      grid-area: telefono;
-      margin: 0rem;
-      border-radius: 4px;
-
-      label {
-        font-size: 1.5rem;
-      }
-    }
-
-    .emailConsulta {
-      grid-area: email;
-      margin: 0rem;
-      border-radius: 4px;
-
-      label {
-        font-size: 1.5rem;
-      }
-    }
-
-    .consulta {
-      grid-area: consulta;
-      margin: 0rem;
-      border-radius: 4px;
-
-      label {
-        font-size: 1.5rem;
-      }
-    }
-
-    .consulta textarea {
-      width: 70vw;
-    }
-
-    .enviar {
-      font-family: 'Montserrat', sans-serif;
-      grid-area: enviar;
-      padding: 0.3rem 1rem;
-      border-radius: 4px;
-      font-size: 1rem;
-    }
-
-
-
-    /* Animaciones Formulario */
-
-
-    .nombreConsulta :hover {
-      transform: scale(1.1, 1.1);
-    }
-
-    .telefonoConsulta :hover {
-      transform: scale(1.1, 1.1);
-    }
-
-    .emailConsulta :hover {
-      transform: scale(1.1, 1.1);
-    }
-
-    .consulta :hover {
-      transform: scale(1.1, 1.1) translateY(5px);
-    }
-
-    .enviar :hover {
-      transform: scale(1.1, 1.1);
-    }
-
-    /* BREADCRUMBS */
-    .breadcrumb {
-      padding: 1rem 1.3rem;
-      list-style: none;
-      background-color: #edeeef;
-    }
-
-    .breadcrumb li {
-      display: inline;
-      font-size: 1.3rem;
-    }
-
-    .breadcrumb li+li:before {
-      padding: 0.3rem;
-      color: #0a2947;
-      content: "/\00a0";
-    }
-
-    .breadcrumb li a {
-      color: #0a2947;
-      text-decoration: none;
-      transition: transform 1s;
-    }
-
-    /* ANIMACION */
-
-
-    .breadcrumb li:hover {
-      transform: scale(1.05, 1.05);
-    }
-
-    /* ALQUILERES */
-    .seccionAlquileres {
-      padding: 3rem;
-      background-color: #0f2f56;
-    }
-
-    /* VENTAS */
-
-
-    .seccionVentas {
-      padding: 3rem;
-      background-color: #0f2f56;
-
-    }
-
-    .titulo-producciones {
-      font-size: 2rem;
-    }
-
-    .texto-producciones {
+    label {
       font-size: 1.5rem;
     }
+  }
 
-    .botonVisitar {
-      background-color: #0a2947;
-      border: #0f2f56;
-      font-size: 1.2rem;
+  .telefonoConsulta {
+    grid-area: telefono;
+    margin: 0rem;
+    border-radius: 4px;
+
+    label {
+      font-size: 1.5rem;
     }
+  }
+
+  .emailConsulta {
+    grid-area: email;
+    margin: 0rem;
+    border-radius: 4px;
+
+    label {
+      font-size: 1.5rem;
+    }
+  }
+
+  .consulta {
+    grid-area: consulta;
+    margin: 0rem;
+    border-radius: 4px;
+
+    label {
+      font-size: 1.5rem;
+    }
+  }
+
+  .consulta textarea {
+    width: 70vw;
+  }
+
+  .enviar {
+    font-family: 'Montserrat', sans-serif;
+    grid-area: enviar;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
 
 
-    /* VISTA PROPIEDADES */
-    .propiedades {
-      background-color: #0a2947;
-      border-radius: 8px;
-      margin: 1rem auto 1rem auto;
-      padding: 1rem !important;
+
+  /* Animaciones Formulario */
+
+
+  .nombreConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .telefonoConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .emailConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .consulta :hover {
+    transform: scale(1.1, 1.1) translateY(5px);
+  }
+
+  .enviar :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  /* BREADCRUMBS */
+  .breadcrumb {
+    padding: 1rem 1.3rem;
+    list-style: none;
+    background-color: #edeeef;
+  }
+
+  .breadcrumb li {
+    display: inline;
+    font-size: 1.3rem;
+  }
+
+  .breadcrumb li+li:before {
+    padding: 0.3rem;
+    color: #0a2947;
+    content: "/\00a0";
+  }
+
+  .breadcrumb li a {
+    color: #0a2947;
+    text-decoration: none;
+    transition: transform 1s;
+  }
+
+  /* ANIMACION */
+
+
+  .breadcrumb li:hover {
+    transform: scale(1.05, 1.05);
+  }
+
+  /* ALQUILERES */
+  .seccionAlquileres {
+    padding: 3rem;
+    background-color: #0f2f56;
+  }
+
+  /* VENTAS */
+
+
+  .seccionVentas {
+    padding: 3rem;
+    background-color: #0f2f56;
+
+  }
+
+  .titulo-producciones {
+    font-size: 2rem;
+  }
+
+  .texto-producciones {
+    font-size: 1.5rem;
+  }
+
+  .botonVisitar {
+    background-color: #0a2947;
+    border: #0f2f56;
+    font-size: 1.2rem;
+  }
+
+
+  /* VISTA PROPIEDADES */
+  .propiedades {
+    background-color: #0a2947;
+    border-radius: 8px;
+    margin: 1rem auto 1rem auto;
+    padding: 1rem !important;
+    height: auto;
+    width: 80vw;
+  }
+
+  .descripcionPropiedades {
+    font-size: 1.3rem;
+    background-color: #0f2f56;
+    color: #edeeef;
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: flex-start;
+
+    ul {
+      margin-left: 2rem;
+      list-style: circle;
       height: auto;
-      width: 80vw;
-    }
+      width: 60vw;
 
-    .descripcionPropiedades {
-      font-size: 1.3rem;
-      background-color: #0f2f56;
-      color: #edeeef;
-      width: 80vw;
-      height: auto;
-      margin: auto;
-      border-radius: 8px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-content: center;
-      align-items: flex-start;
-
-      ul {
-        margin-left: 2rem;
-        list-style: circle;
-        height: auto;
-        width: 60vw;
-
-        li {
-          padding: 0.5rem 0rem;
-        }
-      }
-
-      p {
-        margin: 0;
-        padding: 1rem;
-        height: auto;
-        width: 80vw;
-
+      li {
+        padding: 0.5rem 0rem;
       }
     }
 
-    strong {
-      font-weight: 700;
-    }
-
-
-
-    /* FORMULARIO PROPIEDADES */
-    .formularioPropiedades {
+    p {
+      margin: 0;
       padding: 1rem;
-      display: flex;
-      flex-direction: column;
-      max-height: 100%;
       height: auto;
-      width: auto;
-      justify-content: space-between;
-      align-items: flex-start;
-      align-content: center;
-      background-color: #0f2f56;
-      border-radius: 8px;
-      margin: 1rem auto;
+      width: 80vw;
 
     }
+  }
 
-    .nombreConsultaPropiedades {
-      font-family: 'Montserrat', sans-serif;
-      color: #edeeef;
-      font-size: 1.3rem;
-    }
+  strong {
+    font-weight: 700;
+  }
 
-    .telefonoConsultaPropiedades {
-      font-family: 'Montserrat', sans-serif;
-      color: #edeeef;
-      font-size: 1.3rem;
-    }
 
-    .consultaPropiedades {
-      font-family: 'Montserrat', sans-serif;
-      color: #edeeef;
-      font-size: 1.3rem;
-      width: 70vw;
-    }
 
-    .enviarPropiedades {
-      font-family: 'Montserrat', sans-serif;
-      color: #edeeef;
-      font-size: 1.3rem;
-      align-self: center;
-    }
+  /* FORMULARIO PROPIEDADES */
+  .formularioPropiedades {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    background-color: #0f2f56;
+    border-radius: 8px;
+    margin: 1rem auto;
+
+  }
+
+  .nombreConsultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.3rem;
+  }
+
+  .telefonoConsultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.3rem;
+  }
+
+  .consultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.3rem;
+    width: 70vw;
+  }
+
+  .enviarPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.3rem;
+    align-self: center;
+  }
 }
 
 /* MEDIA 414 A 539 */
@@ -1512,51 +1514,53 @@ footer p {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     grid-template-areas: "instagram irArriba divisorFooter"
-        " whatsapp whatsapp whatsapp"
-        "email email desarrolladoPor";
+      " whatsapp whatsapp whatsapp"
+      "email email desarrolladoPor";
     justify-content: space-between;
     align-content: space-between;
-        div {
-        text-align: center;
-        }
-        a {
-            font-family: 'Montserrat', sans-serif;
-            text-decoration: none;
-            color: #edeeef;
-            padding: 0.5rem 1rem 0rem 1rem;
-            display: flex;
-            font-size: 1rem;
-        }
+
+    div {
+      text-align: center;
+    }
+
+    a {
+      font-family: 'Montserrat', sans-serif;
+      text-decoration: none;
+      color: #edeeef;
+      padding: 0.5rem 1rem 0rem 1rem;
+      display: flex;
+      font-size: 1rem;
+    }
 
 
-}
+  }
 
-.logoInstagram {
+  .logoInstagram {
     padding-right: 0.5rem;
     font-size: 2rem;
 
-}
+  }
 
-.logoWhatsapp {
+  .logoWhatsapp {
     padding-right: 0.5rem;
     font-size: 2rem;
 
-}
+  }
 
-.logoEmail {
+  .logoEmail {
     padding-right: 0.5rem;
     font-size: 2rem;
 
-}
+  }
 
 
-.footer a img {
+  .footer a img {
     align-self: center;
-}
+  }
 
 
 
-.instagram {
+  .instagram {
     height: auto;
     grid-area: instagram;
     display: flex;
@@ -1565,18 +1569,18 @@ footer p {
     align-items: flex-end;
 
 
-}
+  }
 
-.whatsapp {
+  .whatsapp {
     height: auto;
     grid-area: whatsapp;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
-}
+  }
 
-.email {
+  .email {
     height: auto;
     width: auto;
     grid-area: email;
@@ -1585,9 +1589,9 @@ footer p {
     justify-content: flex-start;
     align-items: flex-end;
     padding-bottom: 0.5rem;
-}
+  }
 
-.irArriba {
+  .irArriba {
     height: auto;
     display: grid;
     text-align: center;
@@ -1595,11 +1599,11 @@ footer p {
     align-items: center;
     justify-items: center;
     grid-area: irArriba;
-}
+  }
 
 
 
-.desarrolladoPor {
+  .desarrolladoPor {
     height: auto;
     grid-area: desarrolladoPor;
     display: flex;
@@ -1609,55 +1613,56 @@ footer p {
     align-content: flex-end;
     margin-bottom: 0rem;
     padding-bottom: 0rem;
-    
-}
+
+  }
 
 
-footer p {
+  footer p {
     font-size: 1rem;
-}
+  }
 
-/* ANIMACION FOOTER */
+  /* ANIMACION FOOTER */
 
-.instagram a {
+  .instagram a {
     transition: 1s;
-    
-}
 
-.instagram a:hover {
+  }
+
+  .instagram a:hover {
     transform: scale(1.1, 1.1) translateX(15px);
-        color:violet;
-    
-}
+    color: violet;
 
-.whatsapp a{
+  }
+
+  .whatsapp a {
     transition: 1s;
-}
+  }
 
-.whatsapp a:hover {
+  .whatsapp a:hover {
     transform: scale(1.1, 1.1) translateX(15px);
-    color:green;
-}
+    color: green;
+  }
 
-.email a {
+  .email a {
     transition: 1s;
-}
+  }
 
-.email a:hover {
+  .email a:hover {
     transform: scale(1.1, 1.1) translateX(15px);
-    color:red;
+    color: red;
 
-}
-.irArriba a svg {
+  }
+
+  .irArriba a svg {
     transition: 1s;
-    
-}
 
-.irArriba a svg:hover {
-    transform: scale(2 , 2);
-        
-    
-}
+  }
+
+  .irArriba a svg:hover {
+    transform: scale(2, 2);
+
+
+  }
 
   /* MAPA */
   .tituloMapa {
@@ -1758,27 +1763,29 @@ footer p {
     height: auto;
     width: fit-content;
     border-radius: 4px 4px 4px 4px;
-        div {
-            height: auto;
-            width: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            align-content: center;
-            margin: 1rem;
-                p {
-                    font-size: 2rem;
-                    padding: 00.5rem;
-                    width: 80vw;
-                    max-height: fit-content;
-                    min-height: 12vh;
-                }
 
-        }
-       
+    div {
+      height: auto;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      margin: 1rem;
 
-}
+      p {
+        font-size: 2rem;
+        padding: 00.5rem;
+        width: 80vw;
+        max-height: fit-content;
+        min-height: 12vh;
+      }
+
+    }
+
+
+  }
 
   .fotosNos {
     height: 35vh;
@@ -1807,9 +1814,10 @@ footer p {
   /* CONTACTO */
   .cuerpoContacto {
     background-image: none;
-  
-}
-.seccionContacto {
+
+  }
+
+  .seccionContacto {
     height: fit-content;
     border-radius: 8px 8px 8px 8px;
     width: fit-content;
@@ -1819,13 +1827,13 @@ footer p {
     align-items: center;
     align-content: center;
     margin: 2rem auto;
-    background-color: #0a2947 ;
-    
-
-}
+    background-color: #0a2947;
 
 
-.nuestrosDatos {
+  }
+
+
+  .nuestrosDatos {
     border-radius: 8px 8px 8px 8px;
     margin: 1rem;
     height: fit-content;
@@ -1840,34 +1848,34 @@ footer p {
     align-items: center;
     align-self: center;
 
-}
+  }
 
-.horariosContacto {
-    padding: 1rem 2rem 1rem 2rem;  
+  .horariosContacto {
+    padding: 1rem 2rem 1rem 2rem;
     height: auto;
     width: 30vw;
-    
-}
 
-.telefonoContacto {
-    padding: 1rem 2rem 1rem 2rem;  
+  }
+
+  .telefonoContacto {
+    padding: 1rem 2rem 1rem 2rem;
     height: auto;
     width: 30vw;
-}
+  }
 
-.emailContacto {
-    padding: 1rem 2rem 1rem 2rem;  
+  .emailContacto {
+    padding: 1rem 2rem 1rem 2rem;
     height: auto;
     width: 30vw;
-}
+  }
 
-.emailContacto a {
+  .emailContacto a {
     color: #edeeef;
     text-decoration: none;
-}
+  }
 
-/* FORMULARIO */
-.formulario {
+  /* FORMULARIO */
+  .formulario {
     border-radius: 8px 8px 8px 8px;
     padding: 1rem;
     width: auto;
@@ -1882,54 +1890,58 @@ footer p {
     align-self: flex-start;
     align-content: center;
 
-}
+  }
 
-.nombreConsulta {
+  .nombreConsulta {
     margin: 0.5rem 2rem;
     height: auto;
     width: auto;
     border-radius: 4px;
     font-size: 1.5rem;
-        input {
-            margin-top: 0.5rem;
-        }
-}
 
-.telefonoConsulta {
-    margin: 0.5rem 2rem;
-    height: auto;
-    width: auto;
-    border-radius: 4px;
-    font-size: 1.5rem;
     input {
-        margin-top: 0.5rem;
+      margin-top: 0.5rem;
     }
-}
+  }
 
-.emailConsulta {
-    margin: 0.5rem 2rem;
-    height: auto;
-    width: auto;   
-    border-radius: 4px;
-    font-size: 1.5rem;
-    input {
-        margin-top: 0.5rem;
-    }
-
-}
-
-.consulta {
+  .telefonoConsulta {
     margin: 0.5rem 2rem;
     height: auto;
     width: auto;
     border-radius: 4px;
     font-size: 1.5rem;
+
+    input {
+      margin-top: 0.5rem;
+    }
+  }
+
+  .emailConsulta {
+    margin: 0.5rem 2rem;
+    height: auto;
+    width: auto;
+    border-radius: 4px;
+    font-size: 1.5rem;
+
+    input {
+      margin-top: 0.5rem;
+    }
+
+  }
+
+  .consulta {
+    margin: 0.5rem 2rem;
+    height: auto;
+    width: auto;
+    border-radius: 4px;
+    font-size: 1.5rem;
+
     textarea {
-        margin-top: 0.5rem;
+      margin-top: 0.5rem;
     }
-}
+  }
 
-.enviar {
+  .enviar {
     font-family: 'Montserrat', sans-serif;
     margin: 0.5rem 2rem;
     height: auto;
@@ -1940,185 +1952,199 @@ footer p {
     justify-content: space-around;
     align-self: center;
     align-content: center;
-}
-
-.nombreConsulta label {
-    font-size: 1.7rem;
-}
-
-.telefonoConsulta label {
-    font-size: 1.7rem;
-}
-
-.emailConsulta {
-    font-size: 1.7rem;
-}
-
-.consulta label {
-    font-size: 1.7rem;
-}
-
-/* Animaciones Formulario */ 
-
-
-.nombreConsulta :hover {
-    transform: scale(1.1, 1.1);
-}
-.telefonoConsulta :hover {
-    transform: scale(1.1, 1.1);
-}
-.emailConsulta :hover {
-    transform: scale(1.1, 1.1) ;
-}
-.consulta :hover {
-    transform: scale(1.1, 1.1) translateY(5px);
-}
-.enviar :hover {
-    transform: scale(1.1, 1.1);
-}
-/* BREADCRUMBS */
-.breadcrumb {
-  padding: 1rem 1.5rem;
-  list-style: none;
-  background-color: #edeeef;
-}
-
-.breadcrumb li {
-  display: inline;
-  font-size: 1.5rem;
-}
-
-.breadcrumb li+li:before {
-  padding: 0.5rem;
-  color: #0a2947;
-  content: "/\00a0";
-}
-
-.breadcrumb li a {
-  color: #0a2947;
-  text-decoration: none;
-  transition: transform 1s;
-}
-
-/* ANIMACION */
-
-
-.breadcrumb li:hover {
-  transform: scale(1.05, 1.05);
-}
-
-/* ALQUILERES */ 
-.seccionAlquileres {
-  padding: 3rem;
-  background-color: #0f2f56;
-}
-
-/* VENTAS */
-
-
-.seccionVentas {
-  padding: 3rem;
-  background-color: #0f2f56;
-
-}
-.titulo-producciones {
-  font-size: 2rem;
-}
-
-.texto-producciones {
-  font-size: 1.5rem;
-}
-
-.botonVisitar {
-  background-color: #0a2947;
-  border: #0f2f56;
-  font-size: 1.2rem;
-}
-
-
-/* VISTA PROPIEDADES */ 
-.propiedades {
-  background-color: #0a2947;
-  border-radius: 8px;
-  margin: 1rem auto 1rem auto;
-  padding: 1rem !important;
-  height: auto;
-  width: 80vw;
-}
-.descripcionPropiedades {
-  font-size: 1.7rem;
-  background-color: #0f2f56;
-  color: #edeeef;
-  width: 80vw;
-  height: auto;
-  margin: auto;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-content: center;
-  align-items: flex-start;
-  ul {
-      margin-left: 2rem;
-      list-style:circle;
-      height: auto;
-       width: 40vw;
-      li {
-          padding: 0.5rem 0rem;
-      }
   }
-   p {
-       margin: 0;
-       padding: 1rem;
-       height: auto;
-       width: 40vw;
 
-   }
-}
-strong {
-  font-weight:700 ;
-}
+  .nombreConsulta label {
+    font-size: 1.7rem;
+  }
+
+  .telefonoConsulta label {
+    font-size: 1.7rem;
+  }
+
+  .emailConsulta {
+    font-size: 1.7rem;
+  }
+
+  .consulta label {
+    font-size: 1.7rem;
+  }
+
+  /* Animaciones Formulario */
+
+
+  .nombreConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .telefonoConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .emailConsulta :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .consulta :hover {
+    transform: scale(1.1, 1.1) translateY(5px);
+  }
+
+  .enviar :hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  /* BREADCRUMBS */
+  .breadcrumb {
+    padding: 1rem 1.5rem;
+    list-style: none;
+    background-color: #edeeef;
+  }
+
+  .breadcrumb li {
+    display: inline;
+    font-size: 1.5rem;
+  }
+
+  .breadcrumb li+li:before {
+    padding: 0.5rem;
+    color: #0a2947;
+    content: "/\00a0";
+  }
+
+  .breadcrumb li a {
+    color: #0a2947;
+    text-decoration: none;
+    transition: transform 1s;
+  }
+
+  /* ANIMACION */
+
+
+  .breadcrumb li:hover {
+    transform: scale(1.05, 1.05);
+  }
+
+  /* ALQUILERES */
+  .seccionAlquileres {
+    padding: 3rem;
+    background-color: #0f2f56;
+  }
+
+  /* VENTAS */
+
+
+  .seccionVentas {
+    padding: 3rem;
+    background-color: #0f2f56;
+
+  }
+
+  .titulo-producciones {
+    font-size: 2rem;
+  }
+
+  .texto-producciones {
+    font-size: 1.5rem;
+  }
+
+  .botonVisitar {
+    background-color: #0a2947;
+    border: #0f2f56;
+    font-size: 1.2rem;
+  }
+
+
+  /* VISTA PROPIEDADES */
+  .propiedades {
+    background-color: #0a2947;
+    border-radius: 8px;
+    margin: 1rem auto 1rem auto;
+    padding: 1rem !important;
+    height: auto;
+    width: 80vw;
+  }
+
+  .descripcionPropiedades {
+    font-size: 1.7rem;
+    background-color: #0f2f56;
+    color: #edeeef;
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: flex-start;
+
+    ul {
+      margin-left: 2rem;
+      list-style: circle;
+      height: auto;
+      width: 40vw;
+
+      li {
+        padding: 0.5rem 0rem;
+      }
+    }
+
+    p {
+      margin: 0;
+      padding: 1rem;
+      height: auto;
+      width: 40vw;
+
+    }
+  }
+
+  strong {
+    font-weight: 700;
+  }
 
 
 
-/* FORMULARIO PROPIEDADES */ 
-.formularioPropiedades {
-  padding: 0rem 2rem 1rem 2rem;
-  display: flex; 
-  flex-direction: column;
-  max-height: 100%;
-  height: 30vh;
-  width: auto;
-  justify-content: space-around;
-  align-items: flex-start;
-  align-content: center;
-  background-color: #0f2f56;
-  border-radius: 8px;
-  margin: 1rem auto ;
-  
-}
+  /* FORMULARIO PROPIEDADES */
+  .formularioPropiedades {
+    padding: 0rem 2rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    height: 30vh;
+    width: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+    background-color: #0f2f56;
+    border-radius: 8px;
+    margin: 1rem auto;
 
-.nombreConsultaPropiedades {
-  font-family: 'Montserrat', sans-serif;
-  color: #edeeef;
-  font-size: 1.5rem;
-}
-.telefonoConsultaPropiedades {
-  font-family: 'Montserrat', sans-serif;
-  color: #edeeef;
-  font-size: 1.5rem;
-}
-.consultaPropiedades {
-  font-family: 'Montserrat', sans-serif;
-  color: #edeeef;
-  font-size: 1.5rem;
-}
-.enviarPropiedades {
-  font-family: 'Montserrat', sans-serif;
-  color: #edeeef;
-  font-size: 1.5rem;
-  align-self: center;
-}
+  }
+
+  .nombreConsultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+  }
+
+  .telefonoConsultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+  }
+
+  .consultaPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+  }
+
+  .enviarPropiedades {
+    font-family: 'Montserrat', sans-serif;
+    color: #edeeef;
+    font-size: 1.5rem;
+    align-self: center;
+  }
 }
 
 /* 1024  a 1366 */
@@ -2270,13 +2296,14 @@ strong {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     grid-template-areas: "instagram irArriba divisorFooter"
-        " whatsapp whatsapp whatsapp"
-        "email email desarrolladoPor";
+      " whatsapp whatsapp whatsapp"
+      "email email desarrolladoPor";
     justify-content: space-between;
     align-content: space-between;
-        div {
-        text-align: center;
-        }
+
+    div {
+      text-align: center;
+    }
 
 
   }
@@ -2306,6 +2333,7 @@ strong {
     padding: 0.5rem 1rem 0.5rem 1rem;
     display: flex;
   }
+
   .footer a img {
     align-self: center;
   }
@@ -2420,10 +2448,10 @@ strong {
     align-items: center;
     align-content: center;
     margin: 2rem auto;
-    background-color: #0a2947 ;
-    
+    background-color: #0a2947;
 
-}
+
+  }
 
   .nuestrosDatos {
     border-radius: 8px 8px 8px 8px;
@@ -2468,9 +2496,11 @@ strong {
     color: #edeeef;
     text-decoration: none;
   }
+
   .cuerpoContacto {
     background-image: none;
   }
+
   /* FORMULARIO */
 
   .formulario {
@@ -2520,6 +2550,7 @@ strong {
     font-size: 1.5rem;
 
   }
+
   .consulta textarea {
     width: 30vw;
   }
@@ -2663,28 +2694,31 @@ strong {
     height: auto;
     width: fit-content;
     border-radius: 4px 4px 4px 4px;
-        div {
-            height: auto;
-            width: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            align-content: center;
-            margin: 1rem;
-                p {
-                    font-size: 2rem;
-                    padding: 00.5rem;
-                    width: auto;
-                    max-height: fit-content;
-                    min-height: 23vh;
-                }
 
-        }
-       
+    div {
+      height: auto;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      margin: 1rem;
+
+      p {
+        font-size: 2rem;
+        padding: 00.5rem;
+        width: auto;
+        max-height: fit-content;
+        min-height: 23vh;
+      }
+
+    }
+
 
 
   }
+
   .fotosNos {
     height: 30vh;
     width: 28vw;

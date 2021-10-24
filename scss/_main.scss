@@ -9,48 +9,52 @@ html {
 }
 
 
-/* FUENTES */ 
-/* BARLOW */ 
+/* FUENTES */
+/* BARLOW */
 
-$barlow: (
-    "bthin": 100,
-    "blight": 300, 
+$barlow: ("bthin": 100,
+    "blight": 300,
     "bnormal": 500,
     "bbold": 700,
 );
-@each $k ,$v in $barlow {
+
+@each $k,
+$v in $barlow {
     .#{$k} {
         font-weight: $v;
         font-family: 'Barlow', sans-serif;
     }
-    
+
 }
-$monserrat: (
-    "mthin": 100,
+
+$monserrat: ("mthin": 100,
     "mlight": 300,
     "mnormal": 500,
     "mbold": 700,
 );
-@each $k ,$v in $monserrat {
+
+@each $k,
+$v in $monserrat {
     .#{$k} {
         font-weight: $v;
         font-family: 'Montserrat', sans-serif;
     }
-    
+
 }
 
-/* BORDES */ 
+/* BORDES */
 /* REDONDEO */
 
-$angulos: (
-    "ang4": 4px,
+$angulos: ("ang4": 4px,
     "ang8": 8px,
     "ang12": 12px,
 );
-@each $k ,$v in $angulos {
+
+@each $k,
+$v in $angulos {
     .#{$k} {
         border-radius: $v;
-        
+
     }
-    
+
 }
